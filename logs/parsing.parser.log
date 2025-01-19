@@ -1,0 +1,20 @@
+parsing.parser 2025-01-18 23:30:38,505 INFO Try to get active collection from db
+parsing.parser 2025-01-19 16:38:08,173 INFO Try to get active collection from db
+parsing.parser 2025-01-19 16:46:53,537 INFO Try to get active collection from db
+parsing.parser 2025-01-19 16:55:33,265 INFO Try to get active collection from db
+parsing.parser 2025-01-19 16:56:11,031 INFO Try to get active collection from db
+parsing.parser 2025-01-19 16:56:36,818 INFO Try to get active collection from db
+parsing.parser 2025-01-19 16:56:59,131 INFO Try to get active collection from db
+parsing.parser 2025-01-19 16:58:33,904 INFO Try to get active collection from db
+parsing.parser 2025-01-19 17:01:13,700 INFO Try to get active collection from db
+parsing.parser 2025-01-19 17:03:14,789 INFO Try to get active collection from db
+parsing.parser 2025-01-19 17:08:52,241 INFO Try to get active collection from db
+parsing.parser 2025-01-19 17:14:37,545 INFO Try to get active collection from db
+parsing.parser 2025-01-19 17:14:48,950 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-19 17:14:49,110 INFO Tasks filtering by city is recived
+parsing.parser 2025-01-19 17:14:49,110 INFO Starting tasks for every city
+parsing.parser 2025-01-19 17:14:50,157 INFO Task to page with vac is recived
+parsing.parser 2025-01-19 17:14:50,157 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-19 17:14:58,706 INFO Last tasks is recived
+parsing.parser 2025-01-19 17:14:58,706 INFO Freezing the code on time78
+

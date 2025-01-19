@@ -1,0 +1,1 @@
+from bot.handlers import admin, callback, command, message
