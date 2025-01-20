@@ -34,5 +34,10 @@ async def update_peak_city(new_city: str, user_id: int):
 
     collection, connection = await db_service.loading_collection("statistic")
     collection.update_one({}, {"$inc" : {name_city_for_statistic[old_city] : -1}})
+
+    #Если число отрицательное
+    if int(collection.find_one({})[name_city_for_statistic[old_city]]) < 0:
+        collection.update_one({}, {"$set" : {name_city_for_statistic[old_city] : 0}})
+
     collection.update_one({}, {"$inc" : {name_city_for_statistic[new_city] : 1}})
     connection.close()

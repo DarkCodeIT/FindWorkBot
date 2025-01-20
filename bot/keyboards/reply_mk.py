@@ -3,8 +3,8 @@ from aiogram.utils.keyboard import ReplyKeyboardBuilder
 
 async def menu_r():
   builder = ReplyKeyboardBuilder()
-  builder.add(KeyboardButton(text="Search"))
-  builder.add(KeyboardButton(text="Information"))
+  builder.row(KeyboardButton(text="Поиск🔎"), KeyboardButton(text="Мои данные📋"))
+  builder.row(KeyboardButton(text="Изменить город🌆"))
   return builder.as_markup(resize_keyboard=True)
 
 async def admin_panel():

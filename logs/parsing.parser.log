@@ -18,3 +18,4 @@ parsing.parser 2025-01-19 17:14:50,157 INFO Starting tasks 'page with vac'
 parsing.parser 2025-01-19 17:14:58,706 INFO Last tasks is recived
 parsing.parser 2025-01-19 17:14:58,706 INFO Freezing the code on time78
 
+parsing.parser 2025-01-20 14:20:38,811 INFO Try to get active collection from db

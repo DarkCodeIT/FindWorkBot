@@ -6,7 +6,7 @@ from bot.utils.callback_factory import CallbackCity, CallbackVac
 from bot.keyboards.inline_mk import city_level_0, city_level_1, navigation_vac
 from bot.keyboards.reply_mk import menu_r
 from database.db_service import update_city
-from database.statistic import update_peak_city
+from database.statistic import update_peak_city, update_clicks_to_link_vac
 from logs.logger import get_logger
 
 router_callback = Router(name="Callback_router")
@@ -44,6 +44,12 @@ async def input_city_nav(query: CallbackQuery, callback_data: CallbackCity):
 
 @router_callback.callback_query(CallbackVac.filter())
 async def vacansy(query: CallbackQuery, callback_data: CallbackVac, state: FSMContext):
+    # Обрабатываем выход из пагинации
+    if callback_data.action == "menu":
+        await query.message.delete()
+        await query.message.answer(text="Для поиска введите 'Search'")
+        await state.clear()
+
     #Загружаем данные из Состояния и проверяем есть ли они там
     row_vac = await state.get_data()
     if not row_vac:
@@ -56,14 +62,14 @@ async def vacansy(query: CallbackQuery, callback_data: CallbackVac, state: FSMCo
 
     #Отправляем следующую вакансию
     if callback_data.action == "next":
-        page = page_num + 1 if page_num < len(list_vac) else page_num
+        page = page_num + 1 if page_num < len(list_vac[0]) - 1 else page_num
 
         #Если вакансия последняя в списке
-        if page == len(list_vac):
+        if page == len(list_vac[0]) - 1:
             await query.answer(text="Это последняя вакансия :(")
             return
 
-        await query.message.edit_text(list_vac[page], reply_markup=await navigation_vac(page=page))
+        await query.message.edit_text(list_vac[0][page], reply_markup=await navigation_vac(page=page, link=list_vac[1][page]))
         return
 
     #Отправляем предыдущую вакансию
@@ -75,11 +81,6 @@ async def vacansy(query: CallbackQuery, callback_data: CallbackVac, state: FSMCo
             await query.answer(text="Вакансии под номером -1, быть не может :/")
             return
 
-        await query.message.edit_text(list_vac[page], reply_markup=await navigation_vac(page=page))
+        await query.message.edit_text(list_vac[0][page], reply_markup=await navigation_vac(page=page, link=list_vac[1][page]))
         return
 
-    #Обрабатываем выход из пагинации
-    if callback_data.action == "menu":
-        await query.message.delete()
-        await query.message.answer(text="Для поиска введите 'Search'")
-        await state.clear()

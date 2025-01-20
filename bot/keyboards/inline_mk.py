@@ -55,12 +55,12 @@ async def city_level_1():
 
     return builder.as_markup()
 
-async def navigation_vac(page: int=0):
+async def navigation_vac(page: int=0, link: str=""):
 
     builder = InlineKeyboardBuilder()
-
+    builder.row(InlineKeyboardButton(text="Ссылка", url=link, callback_data=CallbackVac(action="click", page=page).pack()))
     builder.row(
-        InlineKeyboardButton(text="back", callback_data=CallbackVac(action="prev",page=page).pack()),
+        InlineKeyboardButton(text="back", callback_data=CallbackVac(action="back",page=page).pack()),
         InlineKeyboardButton(text="menu", callback_data=CallbackVac(action="menu",page=page).pack()),
         InlineKeyboardButton(text="next", callback_data=CallbackVac(action="next",page=page).pack())
     )

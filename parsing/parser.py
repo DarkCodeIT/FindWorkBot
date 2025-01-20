@@ -28,12 +28,10 @@ class DynamicCollection:
         if data == "vacansy":
             self.active_collection = "vacansy_two"
             self.old_collection = "vacansy"
-            collection.update_one({}, {"$set" : {"active_collection" : "vacansy_two"}})
 
         else:
             self.old_collection = "vacansy_two"
             self.active_collection = "vacansy"
-            collection.update_one({}, {"$set" : {"active_collection" : "vacansy"}})
 
         logger.info(f"Active collection is {self.active_collection}, close connection")
         connection.close()
@@ -241,7 +239,7 @@ async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession):
 async def point_run():
     #Получаем коллекцию в которую будем сохранять данные
     await dynamic_collection.update_active_collection()
-    print("lihsfdjkosfpklm")
+
     #Создаем таймаут на http запросы если в течение
     #этого временя запрос не выполнится то он отменится
     timeout = aiohttp.ClientTimeout(total=20)
@@ -291,9 +289,13 @@ async def point_run():
         logger.info(f"Freezing the code on time{time_sleep}\n")
         await asyncio.sleep(time_sleep)
 
+    #Обновляем активную коллекцию
+    collection, connection = await db_service.loading_collection(coll_name="setting")
+    collection.update_one({}, {"$set": {"active_collection": dynamic_collection.active_collection}})
+    connection.close()
 
     #Очищаем старую коллекцию
-    coll, connection = await db_service.loading_collection(dynamic_collection.old_collection)
-    coll.delete_many({})
+    collection, connection = await db_service.loading_collection(dynamic_collection.old_collection)
+    collection.delete_many({})
     connection.close()
     logger.info("DB is cleared")
