@@ -1,13 +1,16 @@
+from multiprocessing.forkserver import connect_to_new_process
+
 import aiohttp
 import asyncio
 import time
+
 from random import randint
 from typing import AnyStr
 
 from bs4 import BeautifulSoup
 from fake_headers import Headers
 
-from const import eng_city_id
+from const import eng_city_id, data_parsing
 from database import db_service
 from logs.logger import get_logger
 
@@ -170,7 +173,7 @@ class BS4Tools:
 
 #Создание классов (создаем вне функции, чтобы иметь доступ к этим классам в других функциях без глобального объявления)
 dynamic_collection = DynamicCollection()
-semaphore = asyncio.Semaphore(60)
+semaphore = asyncio.Semaphore(5)
 
 async def create_tasks_by_filter_city(session: aiohttp.ClientSession) -> list:
     tasks_city = []
@@ -201,7 +204,7 @@ async def create_tasks_to_page(id_city: int, url: str, session: aiohttp.ClientSe
         logger.error(f"{ex}")
 
 
-async def create_tasks_to_vacansy(id_city: int, url: str, session: aiohttp.ClientSession) -> list:
+async def create_tasks_to_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, repeat: int=3) -> list:
     tasks_to_vac = []
 
     try:
@@ -220,8 +223,13 @@ async def create_tasks_to_vacansy(id_city: int, url: str, session: aiohttp.Clien
     except Exception as ex:
         logger.error(f"Can not get urls to vacansy on page {url}")
         logger.error(f"{ex}")
+        if repeat > 0:
+            logger.info("TRY AGAIN GO SLEEP\n\n")
+            time.sleep(randint(5, 10))
+            await create_tasks_to_vacansy(id_city, url, session, repeat-1)
 
-async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession):
+
+async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, repeat: int=3):
 
     try:
         async with semaphore:
@@ -232,39 +240,39 @@ async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession):
         logger.error(f"{ex}")
 
     try:
-        await db_service.insert(data=data, coll=dynamic_collection.active_collection)
+        # await db_service.insert(data=data, coll=dynamic_collection.active_collection)
+        data_parsing.append(data)
+        logger.info("DATA SAVED")
     except Exception as ex:
         logger.error(f"Can not upload data to db: data is {data}\nActive collection is {dynamic_collection.active_collection}")
         logger.error(f"{ex}")
+        if repeat > 0:
+            logger.info("TRY AGAIN GO SLEEP\n\n")
+            time.sleep(randint(5, 10))
+            await get_vacansy(id_city, url, session, repeat-1)
 
 
 async def point_run():
     #Получаем коллекцию в которую будем сохранять данные
     await dynamic_collection.update_active_collection()
-    print("lihsfdjkosfpklm")
-    #Создаем таймаут на http запросы если в течение
-    #этого временя запрос не выполнится то он отменится
-    timeout = aiohttp.ClientTimeout(total=20)
 
     #Создание сессии для всех запросов на сервер
-    session = aiohttp.ClientSession(timeout=timeout)
+    session = aiohttp.ClientSession()
 
     #Получение тасков на нахождения вакансий в городах
     tasks_by_city = await create_tasks_by_filter_city(session)
-
-    logger.info("Tasks filtering by city is recived")
-    logger.info("Starting tasks for every city")
+    logger.info("TASK BY CITY IS HAVE RUN TASKS WITH 10 URLS\n")
 
     for task_c in tasks_by_city:
         start_time = time.time()
         #Запуск поиска количества страниц по данному городу(task_c) и получение корутин(create_tasks_to_vacansy)
         tasks_with_pages_with_ten = await task_c
-        logger.info("Task to page with vac is recived")
+        logger.info("Task to page with vac is recived\n")
 
         #Запуск полученных ранее корутин из которых мы получим список последних заданий(get_vacansy)
-        logger.info("Starting tasks 'page with vac'")
+        logger.info("Starting tasks 'page with vac'\n")
         last_tasks = await asyncio.gather(*tasks_with_pages_with_ten)
-        logger.info("Last tasks is recived")
+        logger.info("Last tasks is recived\n")
 
         #Делаем паузы чтобы, уменьшить риск бана IP
         time_sleep = randint(60, 120)
@@ -272,7 +280,7 @@ async def point_run():
         await asyncio.sleep(time_sleep)
 
         #Теперь запускаем последние корутины и сохраняем данные в БД
-        logger.info("Running code pending last tasks")
+        logger.info("Running code pending last tasks\n")
         last = set()
 
         #Распаковываем список со списками в которых лежит по 10 корутин
@@ -281,16 +289,20 @@ async def point_run():
                 for item_task in item:
                     last.add(item_task)
 
-        logger.info("Starting Last tasks")
+        logger.info("Starting Last tasks\n")
         await asyncio.gather(*last)
         end_time = time.time()
-        logger.info(f"Speed work is {end_time-start_time}")
+        logger.info(f"Speed work is {end_time-start_time}\n")
 
         # Делаем паузы, чтобы уменьшить риск блокировки IP
         time_sleep = randint(120, 200)
         logger.info(f"Freezing the code on time{time_sleep}\n")
         await asyncio.sleep(time_sleep)
 
+    #Обновляем активную коллекцию
+    collection, connection = await db_service.loading_collection("setting")
+    collection.update_one({}, {"$set" : {"active_collection" : dynamic_collection.active_collection}})
+    connection.close()
 
     #Очищаем старую коллекцию
     coll, connection = await db_service.loading_collection(dynamic_collection.old_collection)
