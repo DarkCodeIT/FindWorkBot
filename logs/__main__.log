@@ -1,0 +1,30 @@
+__main__ 2025-01-20 18:37:35,079 INFO Running bot
+__main__ 2025-01-20 18:37:35,079 INFO Running parsing
+__main__ 2025-01-20 18:40:29,244 INFO Running bot
+__main__ 2025-01-20 18:40:29,244 INFO Running parsing
+__main__ 2025-01-20 18:47:14,490 INFO Running bot
+__main__ 2025-01-20 18:47:14,491 INFO Running parsing
+__main__ 2025-01-20 18:51:19,367 INFO Running bot
+__main__ 2025-01-20 18:51:19,367 INFO Running parsing
+__main__ 2025-01-20 19:11:08,738 INFO Running bot
+__main__ 2025-01-20 19:11:08,738 INFO Running parsing
+__main__ 2025-01-20 19:44:48,263 INFO Running bot
+__main__ 2025-01-20 19:44:48,263 INFO Running parsing
+__main__ 2025-01-21 17:36:13,838 INFO Running bot
+__main__ 2025-01-21 17:36:13,838 INFO Running parsing
+__main__ 2025-01-21 17:37:31,438 INFO Running bot
+__main__ 2025-01-21 17:37:31,438 INFO Running parsing
+__main__ 2025-01-21 17:38:36,711 INFO Running bot
+__main__ 2025-01-21 17:38:36,711 INFO Running parsing
+__main__ 2025-01-21 17:44:49,678 INFO Running bot
+__main__ 2025-01-21 17:44:49,678 INFO Running parsing
+__main__ 2025-01-21 17:48:53,911 INFO Running bot
+__main__ 2025-01-21 17:48:53,911 INFO Running parsing
+__main__ 2025-01-21 17:49:24,735 ERROR Error in module run.py:
+__main__ 2025-01-21 17:49:24,735 ERROR asyncio.tasks.gather() argument after * must be an iterable, not NoneType
+__main__ 2025-01-21 17:54:57,515 INFO Running bot
+__main__ 2025-01-21 17:54:57,515 INFO Running parsing
+__main__ 2025-01-21 17:57:12,156 INFO Running bot
+__main__ 2025-01-21 17:57:12,156 INFO Running parsing
+__main__ 2025-01-21 18:33:33,968 INFO Running bot
+__main__ 2025-01-21 18:33:33,968 INFO Running parsing

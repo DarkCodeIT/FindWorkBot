@@ -1,0 +1,1075 @@
+parsing.parser 2025-01-20 18:37:35,079 INFO Try to get active collection from db
+parsing.parser 2025-01-20 18:37:45,420 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-20 18:37:45,563 INFO Tasks filtering by city is recived
+parsing.parser 2025-01-20 18:37:45,563 INFO Starting tasks for every city
+parsing.parser 2025-01-20 18:37:46,110 INFO Task to page with vac is recived
+parsing.parser 2025-01-20 18:37:46,110 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-20 18:38:04,105 INFO Last tasks is recived
+parsing.parser 2025-01-20 18:38:04,105 INFO Freezing the code on time92
+
+parsing.parser 2025-01-20 18:39:36,109 INFO Running code pending last tasks
+parsing.parser 2025-01-20 18:39:36,109 INFO Starting Last tasks
+parsing.parser 2025-01-20 18:39:36,109 INFO Freezing the code on time159
+
+parsing.parser 2025-01-20 18:40:29,244 INFO Try to get active collection from db
+parsing.parser 2025-01-20 18:40:39,882 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-20 18:40:40,026 INFO Tasks filtering by city is recived
+parsing.parser 2025-01-20 18:40:40,026 INFO Starting tasks for every city
+parsing.parser 2025-01-20 18:40:40,526 INFO Task to page with vac is recived
+parsing.parser 2025-01-20 18:40:40,526 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-20 18:40:58,094 INFO Last tasks is recived
+parsing.parser 2025-01-20 18:40:58,094 INFO Freezing the code on time78
+
+parsing.parser 2025-01-20 18:42:16,107 INFO Running code pending last tasks
+parsing.parser 2025-01-20 18:42:16,112 INFO Starting Last tasks
+parsing.parser 2025-01-20 18:42:47,551 ERROR Can not upload data to db: data is {'city_id': 71, 'title': 'Ведущий специалист, Категория С-О-6', 'salary': 'от 180 517 тенге', 'publis': 'Вакансия действительна с 20.01.2025 по 27.01.2025', 'skills': '', 'region': 'г. Астана, район Сарыарка', 'link': 'https://www.enbek.kz/ru/vacancy/vedushchii-specialist-otdela-kontrolya-v-sfere-registracionnoi-sluzhby-i-registracii-nekommercheskikh-organizacii-vedushchii-specialist,-kategoriya-s-o-6~4542453'}
+Active collection is vacansy_two
+parsing.parser 2025-01-20 18:42:47,551 ERROR The resolution lifetime expired after 20.013 seconds: Server Do53:192.168.92.92@53 answered The DNS operation timed out.; Server Do53:192.168.66.110@53 answered The DNS operation timed out.; Server Do53:192.168.100.1@53 answered The DNS operation timed out.; Server Do53:192.168.227.253@53 answered The DNS operation timed out.; Server Do53:192.168.92.92@53 answered The DNS operation timed out.; Server Do53:192.168.66.110@53 answered The DNS operation timed out.; Server Do53:192.168.100.1@53 answered The DNS operation timed out.; Server Do53:192.168.227.253@53 answered The DNS operation timed out.; Server Do53:192.168.92.92@53 answered The DNS operation timed out.; Server Do53:192.168.66.110@53 answered The DNS operation timed out.
+parsing.parser 2025-01-20 18:47:14,491 INFO Try to get active collection from db
+parsing.parser 2025-01-20 18:47:24,846 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-20 18:47:24,982 INFO Tasks filtering by city is recived
+parsing.parser 2025-01-20 18:47:24,982 INFO Starting tasks for every city
+parsing.parser 2025-01-20 18:47:25,570 INFO Task to page with vac is recived
+parsing.parser 2025-01-20 18:47:25,571 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-20 18:48:02,144 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=44
+parsing.parser 2025-01-20 18:48:02,144 ERROR Response payload is not completed: <ContentLengthError: 400, message='Not enough data for satisfy content length header.'>. ConnectionResetError(22, 'Указанное сетевое имя более недоступно', None, 64, None)
+parsing.parser 2025-01-20 18:48:34,785 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=224
+parsing.parser 2025-01-20 18:48:34,785 ERROR Server disconnected
+parsing.parser 2025-01-20 18:48:39,291 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=235
+parsing.parser 2025-01-20 18:48:39,291 ERROR Server disconnected
+parsing.parser 2025-01-20 18:48:39,291 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=232
+parsing.parser 2025-01-20 18:48:39,291 ERROR Server disconnected
+parsing.parser 2025-01-20 18:48:39,674 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=231
+parsing.parser 2025-01-20 18:48:39,675 ERROR Server disconnected
+parsing.parser 2025-01-20 18:49:01,823 INFO Last tasks is recived
+parsing.parser 2025-01-20 18:49:01,823 INFO Freezing the code on time74
+
+parsing.parser 2025-01-20 18:51:19,368 INFO Try to get active collection from db
+parsing.parser 2025-01-20 18:51:29,716 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-20 18:51:29,853 INFO Tasks filtering by city is recived
+parsing.parser 2025-01-20 18:51:29,854 INFO Starting tasks for every city
+parsing.parser 2025-01-20 18:51:30,341 INFO Task to page with vac is recived
+parsing.parser 2025-01-20 18:51:30,341 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-20 18:52:04,165 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=26
+parsing.parser 2025-01-20 18:52:04,165 ERROR Response payload is not completed: <ContentLengthError: 400, message='Not enough data for satisfy content length header.'>. ConnectionResetError(22, 'Указанное сетевое имя более недоступно', None, 64, None)
+parsing.parser 2025-01-20 18:52:04,165 INFO Last tasks is recived
+parsing.parser 2025-01-20 18:52:04,165 INFO Freezing the code on time60
+
+parsing.parser 2025-01-20 18:53:04,174 INFO Running code pending last tasks
+parsing.parser 2025-01-20 18:53:04,175 INFO Starting Last tasks
+parsing.parser 2025-01-20 18:53:15,595 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:53:25,550 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:53:35,359 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:53:45,227 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:53:55,165 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:54:04,951 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:54:16,355 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:54:26,206 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:54:36,011 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:54:45,778 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:54:56,484 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:55:06,632 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:55:17,028 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:55:30,026 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:55:40,138 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:55:52,122 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:56:02,398 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:56:16,060 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:56:30,101 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:56:44,119 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:56:57,332 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:57:25,873 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:57:37,129 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:57:49,222 INFO Data is loaded in db
+parsing.parser 2025-01-20 18:57:59,830 INFO Data is loaded in db
+parsing.parser 2025-01-20 19:11:08,738 INFO Try to get active collection from db
+parsing.parser 2025-01-20 19:11:18,735 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-20 19:11:18,870 INFO Tasks filtering by city is recived
+parsing.parser 2025-01-20 19:11:18,870 INFO Starting tasks for every city
+parsing.parser 2025-01-20 19:11:19,411 INFO Task to page with vac is recived
+parsing.parser 2025-01-20 19:11:19,411 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-20 19:16:25,092 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=100
+parsing.parser 2025-01-20 19:16:25,092 ERROR 
+parsing.parser 2025-01-20 19:16:25,092 INFO Last tasks is recived
+parsing.parser 2025-01-20 19:16:25,092 INFO Freezing the code on time99
+
+parsing.parser 2025-01-20 19:18:04,107 INFO Running code pending last tasks
+parsing.parser 2025-01-20 19:18:04,107 INFO Starting Last tasks
+parsing.parser 2025-01-20 19:18:32,772 ERROR Can not upload data to db: data is {'city_id': 71, 'title': 'Ведущий специалист, Категория С-О-6', 'salary': 'от 208 062 тенге', 'publis': 'Вакансия действительна с 20.01.2025 по 27.01.2025', 'skills': '', 'region': 'г. Астана, район Сарыарка', 'link': 'https://www.enbek.kz/ru/vacancy/vedushchii-specialist-otdela-regulirovaniya-i-kontrolya-za-deyatelnostyu-sudebnykh-ispolnitelei-vedushchii-specialist,-kategoriya-s-o-6~4542458'}
+Active collection is vacansy_two
+parsing.parser 2025-01-20 19:18:32,772 ERROR The resolution lifetime expired after 20.007 seconds: Server Do53:192.168.92.92@53 answered The DNS operation timed out.; Server Do53:192.168.66.110@53 answered The DNS operation timed out.; Server Do53:192.168.100.1@53 answered The DNS operation timed out.; Server Do53:192.168.227.253@53 answered The DNS operation timed out.; Server Do53:192.168.92.92@53 answered The DNS operation timed out.; Server Do53:192.168.66.110@53 answered The DNS operation timed out.; Server Do53:192.168.100.1@53 answered The DNS operation timed out.; Server Do53:192.168.227.253@53 answered The DNS operation timed out.; Server Do53:192.168.92.92@53 answered The DNS operation timed out.; Server Do53:192.168.66.110@53 answered The DNS operation timed out.
+parsing.parser 2025-01-20 19:44:48,263 INFO Try to get active collection from db
+parsing.parser 2025-01-20 19:44:58,534 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-20 19:44:58,683 INFO Tasks filtering by city is recived
+parsing.parser 2025-01-20 19:44:58,683 INFO Starting tasks for every city
+parsing.parser 2025-01-20 19:45:00,440 INFO Task to page with vac is recived
+parsing.parser 2025-01-20 19:45:00,440 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-20 19:45:35,131 INFO Last tasks is recived
+parsing.parser 2025-01-20 19:45:35,131 INFO Freezing the code on time104
+
+parsing.parser 2025-01-20 19:47:19,142 INFO Running code pending last tasks
+parsing.parser 2025-01-20 19:47:19,142 INFO Starting Last tasks
+parsing.parser 2025-01-21 17:36:13,839 INFO Try to get active collection from db
+parsing.parser 2025-01-21 17:36:24,538 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-21 17:36:24,689 INFO Tasks filtering by city is recived
+parsing.parser 2025-01-21 17:36:24,690 INFO Starting tasks for every city
+parsing.parser 2025-01-21 17:36:25,310 INFO Task to page with vac is recived
+parsing.parser 2025-01-21 17:36:25,310 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-21 17:36:38,101 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=73
+parsing.parser 2025-01-21 17:36:38,101 ERROR 
+parsing.parser 2025-01-21 17:36:48,086 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=141
+parsing.parser 2025-01-21 17:36:48,087 ERROR 
+parsing.parser 2025-01-21 17:36:53,315 INFO Last tasks is recived
+parsing.parser 2025-01-21 17:36:53,316 INFO Freezing the code on time32
+
+parsing.parser 2025-01-21 17:37:31,438 INFO Try to get active collection from db
+parsing.parser 2025-01-21 17:37:41,792 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-21 17:37:41,930 INFO Tasks filtering by city is recived
+parsing.parser 2025-01-21 17:37:41,930 INFO Starting tasks for every city
+parsing.parser 2025-01-21 17:37:42,438 INFO Task to page with vac is recived
+parsing.parser 2025-01-21 17:37:42,438 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-21 17:37:48,101 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=5
+parsing.parser 2025-01-21 17:37:48,101 ERROR 
+parsing.parser 2025-01-21 17:37:49,091 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=21
+parsing.parser 2025-01-21 17:37:49,091 ERROR 
+parsing.parser 2025-01-21 17:38:06,548 INFO Last tasks is recived
+parsing.parser 2025-01-21 17:38:06,548 INFO Freezing the code on time34
+
+parsing.parser 2025-01-21 17:38:36,711 INFO Try to get active collection from db
+parsing.parser 2025-01-21 17:38:47,031 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-21 17:38:47,182 INFO Tasks filtering by city is recived
+parsing.parser 2025-01-21 17:38:47,182 INFO Starting tasks for every city
+parsing.parser 2025-01-21 17:38:47,707 INFO Task to page with vac is recived
+parsing.parser 2025-01-21 17:38:47,707 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-21 17:38:47,707 INFO Last tasks is recived
+parsing.parser 2025-01-21 17:38:47,707 INFO Freezing the code on time53
+
+parsing.parser 2025-01-21 17:44:49,678 INFO Try to get active collection from db
+parsing.parser 2025-01-21 17:45:00,033 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-21 17:45:00,181 INFO Tasks filtering by city is recived
+parsing.parser 2025-01-21 17:45:00,181 INFO Starting tasks for every city
+parsing.parser 2025-01-21 17:45:00,701 INFO DONE
+parsing.parser 2025-01-21 17:45:00,701 INFO Task to page with vac is recived
+parsing.parser 2025-01-21 17:45:00,702 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-21 17:45:11,096 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=58
+parsing.parser 2025-01-21 17:45:11,096 ERROR 
+parsing.parser 2025-01-21 17:45:21,083 INFO Last tasks is recived
+parsing.parser 2025-01-21 17:45:21,083 INFO Freezing the code on time50
+
+parsing.parser 2025-01-21 17:48:53,916 INFO Try to get active collection from db
+parsing.parser 2025-01-21 17:49:04,323 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-21 17:49:24,190 ERROR Can not get pagination on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71
+parsing.parser 2025-01-21 17:49:24,733 INFO OK is DONE GO NEXT
+parsing.parser 2025-01-21 17:54:57,515 INFO Try to get active collection from db
+parsing.parser 2025-01-21 17:55:07,721 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-21 17:55:08,352 INFO OK is DONE GO NEXT
+parsing.parser 2025-01-21 17:55:16,090 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=29
+parsing.parser 2025-01-21 17:55:16,090 ERROR 
+parsing.parser 2025-01-21 17:55:20,088 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=73
+parsing.parser 2025-01-21 17:55:20,088 ERROR 
+parsing.parser 2025-01-21 17:55:22,096 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=90
+parsing.parser 2025-01-21 17:55:22,096 ERROR 
+parsing.parser 2025-01-21 17:55:28,732 INFO Freezing the code on time59
+
+parsing.parser 2025-01-21 17:57:12,156 INFO Try to get active collection from db
+parsing.parser 2025-01-21 17:57:22,488 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-21 17:57:23,090 INFO OK is DONE GO NEXT
+parsing.parser 2025-01-21 17:57:29,098 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=4
+parsing.parser 2025-01-21 17:57:29,098 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=5
+parsing.parser 2025-01-21 17:57:29,099 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=13
+parsing.parser 2025-01-21 17:57:29,099 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=29
+parsing.parser 2025-01-21 17:57:29,100 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=61
+parsing.parser 2025-01-21 17:57:29,100 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=125
+parsing.parser 2025-01-21 17:57:29,100 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=124
+parsing.parser 2025-01-21 17:57:29,101 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=60
+parsing.parser 2025-01-21 17:57:29,101 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=123
+parsing.parser 2025-01-21 17:57:29,101 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=122
+parsing.parser 2025-01-21 17:57:29,102 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=28
+parsing.parser 2025-01-21 17:57:29,102 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=59
+parsing.parser 2025-01-21 17:57:29,102 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=121
+parsing.parser 2025-01-21 17:57:29,103 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=120
+parsing.parser 2025-01-21 17:57:29,103 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=58
+parsing.parser 2025-01-21 17:57:29,103 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=119
+parsing.parser 2025-01-21 17:57:29,103 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=118
+parsing.parser 2025-01-21 17:57:29,104 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=12
+parsing.parser 2025-01-21 17:57:29,104 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=27
+parsing.parser 2025-01-21 17:57:29,104 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=57
+parsing.parser 2025-01-21 17:57:29,105 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=117
+parsing.parser 2025-01-21 17:57:29,105 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=116
+parsing.parser 2025-01-21 17:57:29,105 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=56
+parsing.parser 2025-01-21 17:57:29,106 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=115
+parsing.parser 2025-01-21 17:57:29,106 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=114
+parsing.parser 2025-01-21 17:57:29,106 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=230
+parsing.parser 2025-01-21 17:57:29,110 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=26
+parsing.parser 2025-01-21 17:57:29,110 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=55
+parsing.parser 2025-01-21 17:57:29,110 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=113
+parsing.parser 2025-01-21 17:57:29,111 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=229
+parsing.parser 2025-01-21 17:57:29,111 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=228
+parsing.parser 2025-01-21 17:57:29,111 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=112
+parsing.parser 2025-01-21 17:57:29,111 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=227
+parsing.parser 2025-01-21 17:57:29,112 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=226
+parsing.parser 2025-01-21 17:57:29,112 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=54
+parsing.parser 2025-01-21 17:57:29,112 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=111
+parsing.parser 2025-01-21 17:57:29,112 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=225
+parsing.parser 2025-01-21 17:57:29,113 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=224
+parsing.parser 2025-01-21 17:57:29,113 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=110
+parsing.parser 2025-01-21 17:57:29,113 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=223
+parsing.parser 2025-01-21 17:57:29,113 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=222
+parsing.parser 2025-01-21 17:57:29,114 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=10
+parsing.parser 2025-01-21 17:57:29,114 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=11
+parsing.parser 2025-01-21 17:57:29,114 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=25
+parsing.parser 2025-01-21 17:57:29,115 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=53
+parsing.parser 2025-01-21 17:57:29,115 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=109
+parsing.parser 2025-01-21 17:57:29,115 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=221
+parsing.parser 2025-01-21 17:57:29,116 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=220
+parsing.parser 2025-01-21 17:57:29,116 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=108
+parsing.parser 2025-01-21 17:57:29,116 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=219
+parsing.parser 2025-01-21 17:57:29,116 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=218
+parsing.parser 2025-01-21 17:57:29,117 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=52
+parsing.parser 2025-01-21 17:57:29,117 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=107
+parsing.parser 2025-01-21 17:57:29,117 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=217
+parsing.parser 2025-01-21 17:57:29,117 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=216
+parsing.parser 2025-01-21 17:57:29,118 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=106
+parsing.parser 2025-01-21 17:57:29,118 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=215
+parsing.parser 2025-01-21 17:57:29,118 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=214
+parsing.parser 2025-01-21 17:57:29,119 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=24
+parsing.parser 2025-01-21 17:57:29,119 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=51
+parsing.parser 2025-01-21 17:57:29,119 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=105
+parsing.parser 2025-01-21 17:57:29,120 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=213
+parsing.parser 2025-01-21 17:57:29,120 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=212
+parsing.parser 2025-01-21 17:57:29,120 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=104
+parsing.parser 2025-01-21 17:57:29,120 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=211
+parsing.parser 2025-01-21 17:57:29,120 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=210
+parsing.parser 2025-01-21 17:57:29,121 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=50
+parsing.parser 2025-01-21 17:57:29,121 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=103
+parsing.parser 2025-01-21 17:57:29,121 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=209
+parsing.parser 2025-01-21 17:57:29,122 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=208
+parsing.parser 2025-01-21 17:57:29,122 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=102
+parsing.parser 2025-01-21 17:57:29,122 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=207
+parsing.parser 2025-01-21 17:57:29,122 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=206
+parsing.parser 2025-01-21 17:57:29,123 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=22
+parsing.parser 2025-01-21 17:57:29,123 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=23
+parsing.parser 2025-01-21 17:57:29,123 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=49
+parsing.parser 2025-01-21 17:57:29,124 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=205
+parsing.parser 2025-01-21 17:57:29,124 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=204
+parsing.parser 2025-01-21 17:57:29,124 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=100
+parsing.parser 2025-01-21 17:57:29,124 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=203
+parsing.parser 2025-01-21 17:57:29,125 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=202
+parsing.parser 2025-01-21 17:57:29,125 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=48
+parsing.parser 2025-01-21 17:57:29,125 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=99
+parsing.parser 2025-01-21 17:57:29,126 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=201
+parsing.parser 2025-01-21 17:57:29,126 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=200
+parsing.parser 2025-01-21 17:57:29,126 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=98
+parsing.parser 2025-01-21 17:57:29,126 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=199
+parsing.parser 2025-01-21 17:57:29,127 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=198
+parsing.parser 2025-01-21 17:57:29,127 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=46
+parsing.parser 2025-01-21 17:57:29,127 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=47
+parsing.parser 2025-01-21 17:57:29,128 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=97
+parsing.parser 2025-01-21 17:57:29,128 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=197
+parsing.parser 2025-01-21 17:57:29,128 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=196
+parsing.parser 2025-01-21 17:57:29,128 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=96
+parsing.parser 2025-01-21 17:57:29,129 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=195
+parsing.parser 2025-01-21 17:57:29,129 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=194
+parsing.parser 2025-01-21 17:57:29,129 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=94
+parsing.parser 2025-01-21 17:57:29,129 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=95
+parsing.parser 2025-01-21 17:57:29,130 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=193
+parsing.parser 2025-01-21 17:57:29,130 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=192
+parsing.parser 2025-01-21 17:57:29,130 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=190
+parsing.parser 2025-01-21 17:57:29,130 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=191
+parsing.parser 2025-01-21 17:57:29,131 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=2
+parsing.parser 2025-01-21 17:57:29,131 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=3
+parsing.parser 2025-01-21 17:57:29,131 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=9
+parsing.parser 2025-01-21 17:57:29,132 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=21
+parsing.parser 2025-01-21 17:57:29,132 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=45
+parsing.parser 2025-01-21 17:57:29,132 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=93
+parsing.parser 2025-01-21 17:57:29,133 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=189
+parsing.parser 2025-01-21 17:57:29,133 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=188
+parsing.parser 2025-01-21 17:57:29,133 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=92
+parsing.parser 2025-01-21 17:57:29,134 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=187
+parsing.parser 2025-01-21 17:57:29,134 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=186
+parsing.parser 2025-01-21 17:57:29,134 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=44
+parsing.parser 2025-01-21 17:57:29,134 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=91
+parsing.parser 2025-01-21 17:57:29,135 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=185
+parsing.parser 2025-01-21 17:57:29,135 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=184
+parsing.parser 2025-01-21 17:57:29,135 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=90
+parsing.parser 2025-01-21 17:57:29,135 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=183
+parsing.parser 2025-01-21 17:57:29,136 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=182
+parsing.parser 2025-01-21 17:57:29,136 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=20
+parsing.parser 2025-01-21 17:57:29,136 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=43
+parsing.parser 2025-01-21 17:57:29,137 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=89
+parsing.parser 2025-01-21 17:57:29,137 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=181
+parsing.parser 2025-01-21 17:57:29,137 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=180
+parsing.parser 2025-01-21 17:57:29,137 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=88
+parsing.parser 2025-01-21 17:57:29,138 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=179
+parsing.parser 2025-01-21 17:57:29,138 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=178
+parsing.parser 2025-01-21 17:57:29,138 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=42
+parsing.parser 2025-01-21 17:57:29,138 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=87
+parsing.parser 2025-01-21 17:57:29,139 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=177
+parsing.parser 2025-01-21 17:57:29,139 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=176
+parsing.parser 2025-01-21 17:57:29,139 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=86
+parsing.parser 2025-01-21 17:57:29,139 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=175
+parsing.parser 2025-01-21 17:57:29,140 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=174
+parsing.parser 2025-01-21 17:57:29,140 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=8
+parsing.parser 2025-01-21 17:57:29,140 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=19
+parsing.parser 2025-01-21 17:57:29,141 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=41
+parsing.parser 2025-01-21 17:57:29,141 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=85
+parsing.parser 2025-01-21 17:57:29,141 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=173
+parsing.parser 2025-01-21 17:57:29,142 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=172
+parsing.parser 2025-01-21 17:57:29,142 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=84
+parsing.parser 2025-01-21 17:57:29,142 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=171
+parsing.parser 2025-01-21 17:57:29,142 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=170
+parsing.parser 2025-01-21 17:57:29,143 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=40
+parsing.parser 2025-01-21 17:57:29,143 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=83
+parsing.parser 2025-01-21 17:57:29,143 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=169
+parsing.parser 2025-01-21 17:57:29,144 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=168
+parsing.parser 2025-01-21 17:57:29,144 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=82
+parsing.parser 2025-01-21 17:57:29,144 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=167
+parsing.parser 2025-01-21 17:57:29,144 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=166
+parsing.parser 2025-01-21 17:57:29,145 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=18
+parsing.parser 2025-01-21 17:57:29,145 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=39
+parsing.parser 2025-01-21 17:57:29,145 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=81
+parsing.parser 2025-01-21 17:57:29,146 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=165
+parsing.parser 2025-01-21 17:57:29,146 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=164
+parsing.parser 2025-01-21 17:57:29,146 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=80
+parsing.parser 2025-01-21 17:57:29,146 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=163
+parsing.parser 2025-01-21 17:57:29,147 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=162
+parsing.parser 2025-01-21 17:57:29,147 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=38
+parsing.parser 2025-01-21 17:57:29,147 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=79
+parsing.parser 2025-01-21 17:57:29,148 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=161
+parsing.parser 2025-01-21 17:57:29,148 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=160
+parsing.parser 2025-01-21 17:57:29,148 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=78
+parsing.parser 2025-01-21 17:57:29,148 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=159
+parsing.parser 2025-01-21 17:57:29,149 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=158
+parsing.parser 2025-01-21 17:57:29,149 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=6
+parsing.parser 2025-01-21 17:57:29,149 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=7
+parsing.parser 2025-01-21 17:57:29,150 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=17
+parsing.parser 2025-01-21 17:57:29,150 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=37
+parsing.parser 2025-01-21 17:57:29,150 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=77
+parsing.parser 2025-01-21 17:57:29,150 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=157
+parsing.parser 2025-01-21 17:57:29,151 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=156
+parsing.parser 2025-01-21 17:57:29,151 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=76
+parsing.parser 2025-01-21 17:57:29,151 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=155
+parsing.parser 2025-01-21 17:57:29,152 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=154
+parsing.parser 2025-01-21 17:57:29,152 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=36
+parsing.parser 2025-01-21 17:57:29,152 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=75
+parsing.parser 2025-01-21 17:57:29,152 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=153
+parsing.parser 2025-01-21 17:57:29,153 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=152
+parsing.parser 2025-01-21 17:57:29,153 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=74
+parsing.parser 2025-01-21 17:57:29,153 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=151
+parsing.parser 2025-01-21 17:57:29,153 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=150
+parsing.parser 2025-01-21 17:57:29,154 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=16
+parsing.parser 2025-01-21 17:57:29,154 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=35
+parsing.parser 2025-01-21 17:57:29,154 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=73
+parsing.parser 2025-01-21 17:57:29,155 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=149
+parsing.parser 2025-01-21 17:57:29,155 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=148
+parsing.parser 2025-01-21 17:57:29,155 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=72
+parsing.parser 2025-01-21 17:57:29,156 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=146
+parsing.parser 2025-01-21 17:57:29,156 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=147
+parsing.parser 2025-01-21 17:57:29,156 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=145
+parsing.parser 2025-01-21 17:57:29,156 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=144
+parsing.parser 2025-01-21 17:57:29,157 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=143
+parsing.parser 2025-01-21 17:57:29,157 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=142
+parsing.parser 2025-01-21 17:57:29,157 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=141
+parsing.parser 2025-01-21 17:57:29,157 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=140
+parsing.parser 2025-01-21 17:57:29,158 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=139
+parsing.parser 2025-01-21 17:57:29,158 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=138
+parsing.parser 2025-01-21 17:57:29,158 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=137
+parsing.parser 2025-01-21 17:57:29,158 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=136
+parsing.parser 2025-01-21 17:57:29,159 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=135
+parsing.parser 2025-01-21 17:57:29,159 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=134
+parsing.parser 2025-01-21 17:57:29,159 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=133
+parsing.parser 2025-01-21 17:57:29,159 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=132
+parsing.parser 2025-01-21 17:57:29,160 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=131
+parsing.parser 2025-01-21 17:57:29,160 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=130
+parsing.parser 2025-01-21 17:57:29,160 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=129
+parsing.parser 2025-01-21 17:57:29,160 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=128
+parsing.parser 2025-01-21 17:57:29,161 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=127
+parsing.parser 2025-01-21 17:57:29,161 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=34
+parsing.parser 2025-01-21 17:57:29,161 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=71
+parsing.parser 2025-01-21 17:57:29,162 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=70
+parsing.parser 2025-01-21 17:57:29,162 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=14
+parsing.parser 2025-01-21 17:57:29,162 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=15
+parsing.parser 2025-01-21 17:57:29,163 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=33
+parsing.parser 2025-01-21 17:57:29,163 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=69
+parsing.parser 2025-01-21 17:57:29,163 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=68
+parsing.parser 2025-01-21 17:57:29,164 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=32
+parsing.parser 2025-01-21 17:57:29,164 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=67
+parsing.parser 2025-01-21 17:57:29,164 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=66
+parsing.parser 2025-01-21 17:57:29,165 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=30
+parsing.parser 2025-01-21 17:57:29,165 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=31
+parsing.parser 2025-01-21 17:57:29,165 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=65
+parsing.parser 2025-01-21 17:57:29,166 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=64
+parsing.parser 2025-01-21 17:57:29,166 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=62
+parsing.parser 2025-01-21 17:57:29,166 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=63
+parsing.parser 2025-01-21 17:57:29,166 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=126
+parsing.parser 2025-01-21 17:57:35,093 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=4
+parsing.parser 2025-01-21 17:57:35,093 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=61
+parsing.parser 2025-01-21 17:57:35,094 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=28
+parsing.parser 2025-01-21 17:57:35,094 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=121
+parsing.parser 2025-01-21 17:57:35,094 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=58
+parsing.parser 2025-01-21 17:57:35,095 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=104
+parsing.parser 2025-01-21 17:57:35,095 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=211
+parsing.parser 2025-01-21 17:57:35,095 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=7
+parsing.parser 2025-01-21 17:57:35,095 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=126
+parsing.parser 2025-01-21 17:57:35,096 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=6
+parsing.parser 2025-01-21 17:57:35,096 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=62
+parsing.parser 2025-01-21 17:57:35,096 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=213
+parsing.parser 2025-01-21 17:57:35,097 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=212
+parsing.parser 2025-01-21 17:57:35,097 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=158
+parsing.parser 2025-01-21 17:57:35,097 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=65
+parsing.parser 2025-01-21 17:57:35,098 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=159
+parsing.parser 2025-01-21 17:57:35,098 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=160
+parsing.parser 2025-01-21 17:57:35,098 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=78
+parsing.parser 2025-01-21 17:57:35,098 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=67
+parsing.parser 2025-01-21 17:57:35,099 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=120
+parsing.parser 2025-01-21 17:57:35,099 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=51
+parsing.parser 2025-01-21 17:57:35,099 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=105
+parsing.parser 2025-01-21 17:57:35,100 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=161
+parsing.parser 2025-01-21 17:57:35,100 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=79
+parsing.parser 2025-01-21 17:57:35,100 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=69
+parsing.parser 2025-01-21 17:57:35,101 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=38
+parsing.parser 2025-01-21 17:57:35,101 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=15
+parsing.parser 2025-01-21 17:57:35,101 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=24
+parsing.parser 2025-01-21 17:57:35,101 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=163
+parsing.parser 2025-01-21 17:57:35,102 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=162
+parsing.parser 2025-01-21 17:57:35,102 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=70
+parsing.parser 2025-01-21 17:57:35,102 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=71
+parsing.parser 2025-01-21 17:57:35,102 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=164
+parsing.parser 2025-01-21 17:57:35,103 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=80
+parsing.parser 2025-01-21 17:57:35,103 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=127
+parsing.parser 2025-01-21 17:57:35,104 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=128
+parsing.parser 2025-01-21 17:57:35,104 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=130
+parsing.parser 2025-01-21 17:57:35,104 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=132
+parsing.parser 2025-01-21 17:57:35,104 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=134
+parsing.parser 2025-01-21 17:57:35,105 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=135
+parsing.parser 2025-01-21 17:57:35,105 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=136
+parsing.parser 2025-01-21 17:57:35,105 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=59
+parsing.parser 2025-01-21 17:57:35,105 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=106
+parsing.parser 2025-01-21 17:57:35,106 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=214
+parsing.parser 2025-01-21 17:57:35,106 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=81
+parsing.parser 2025-01-21 17:57:35,106 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=165
+parsing.parser 2025-01-21 17:57:35,106 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=138
+parsing.parser 2025-01-21 17:57:35,107 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=140
+parsing.parser 2025-01-21 17:57:35,107 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=39
+parsing.parser 2025-01-21 17:57:35,107 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=142
+parsing.parser 2025-01-21 17:57:35,107 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=143
+parsing.parser 2025-01-21 17:57:35,108 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=144
+parsing.parser 2025-01-21 17:57:35,108 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=147
+parsing.parser 2025-01-21 17:57:35,108 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=215
+parsing.parser 2025-01-21 17:57:35,108 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=18
+parsing.parser 2025-01-21 17:57:35,109 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=72
+parsing.parser 2025-01-21 17:57:35,109 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=167
+parsing.parser 2025-01-21 17:57:35,109 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=166
+parsing.parser 2025-01-21 17:57:35,109 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=149
+parsing.parser 2025-01-21 17:57:35,110 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=52
+parsing.parser 2025-01-21 17:57:35,110 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=217
+parsing.parser 2025-01-21 17:57:35,110 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=216
+parsing.parser 2025-01-21 17:57:35,111 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=82
+parsing.parser 2025-01-21 17:57:35,111 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=168
+parsing.parser 2025-01-21 17:57:35,111 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=83
+parsing.parser 2025-01-21 17:57:35,111 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=169
+parsing.parser 2025-01-21 17:57:35,112 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=74
+parsing.parser 2025-01-21 17:57:35,112 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=152
+parsing.parser 2025-01-21 17:57:35,112 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=153
+parsing.parser 2025-01-21 17:57:35,112 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=107
+parsing.parser 2025-01-21 17:57:35,113 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=40
+parsing.parser 2025-01-21 17:57:35,113 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=154
+parsing.parser 2025-01-21 17:57:35,113 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=171
+parsing.parser 2025-01-21 17:57:35,113 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=170
+parsing.parser 2025-01-21 17:57:35,114 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=76
+parsing.parser 2025-01-21 17:57:35,114 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=156
+parsing.parser 2025-01-21 17:57:35,114 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=157
+parsing.parser 2025-01-21 17:57:35,114 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=125
+parsing.parser 2025-01-21 17:57:35,115 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=60
+parsing.parser 2025-01-21 17:57:35,115 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=123
+parsing.parser 2025-01-21 17:57:35,115 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=122
+parsing.parser 2025-01-21 17:57:35,115 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=172
+parsing.parser 2025-01-21 17:57:35,116 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=84
+parsing.parser 2025-01-21 17:57:35,116 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=218
+parsing.parser 2025-01-21 17:57:35,116 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=173
+parsing.parser 2025-01-21 17:57:35,116 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=85
+parsing.parser 2025-01-21 17:57:35,117 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=108
+parsing.parser 2025-01-21 17:57:35,117 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=219
+parsing.parser 2025-01-21 17:57:35,117 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=41
+parsing.parser 2025-01-21 17:57:35,118 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=19
+parsing.parser 2025-01-21 17:57:35,118 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=53
+parsing.parser 2025-01-21 17:57:35,118 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=221
+parsing.parser 2025-01-21 17:57:35,118 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=220
+parsing.parser 2025-01-21 17:57:35,119 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=8
+parsing.parser 2025-01-21 17:57:35,119 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=175
+parsing.parser 2025-01-21 17:57:35,119 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=174
+parsing.parser 2025-01-21 17:57:35,119 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=109
+parsing.parser 2025-01-21 17:57:35,120 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=176
+parsing.parser 2025-01-21 17:57:35,120 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=86
+parsing.parser 2025-01-21 17:57:35,120 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=87
+parsing.parser 2025-01-21 17:57:35,120 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=177
+parsing.parser 2025-01-21 17:57:35,121 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=124
+parsing.parser 2025-01-21 17:57:35,121 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=11
+parsing.parser 2025-01-21 17:57:35,121 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=25
+parsing.parser 2025-01-21 17:57:35,121 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=42
+parsing.parser 2025-01-21 17:57:35,122 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=179
+parsing.parser 2025-01-21 17:57:35,122 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=178
+parsing.parser 2025-01-21 17:57:35,122 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=89
+parsing.parser 2025-01-21 17:57:35,123 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=180
+parsing.parser 2025-01-21 17:57:35,123 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=88
+parsing.parser 2025-01-21 17:57:35,123 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=181
+parsing.parser 2025-01-21 17:57:35,124 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=222
+parsing.parser 2025-01-21 17:57:35,124 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=10
+parsing.parser 2025-01-21 17:57:35,124 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=43
+parsing.parser 2025-01-21 17:57:35,125 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=20
+parsing.parser 2025-01-21 17:57:35,125 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=184
+parsing.parser 2025-01-21 17:57:35,128 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=183
+parsing.parser 2025-01-21 17:57:35,128 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=182
+parsing.parser 2025-01-21 17:57:35,129 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=90
+parsing.parser 2025-01-21 17:57:35,129 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=5
+parsing.parser 2025-01-21 17:57:35,129 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=13
+parsing.parser 2025-01-21 17:57:35,129 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=29
+parsing.parser 2025-01-21 17:57:35,130 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=225
+parsing.parser 2025-01-21 17:57:35,130 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=110
+parsing.parser 2025-01-21 17:57:35,130 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=223
+parsing.parser 2025-01-21 17:57:35,131 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=185
+parsing.parser 2025-01-21 17:57:35,131 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=91
+parsing.parser 2025-01-21 17:57:35,131 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=44
+parsing.parser 2025-01-21 17:57:35,131 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=224
+parsing.parser 2025-01-21 17:57:35,132 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=187
+parsing.parser 2025-01-21 17:57:35,132 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=186
+parsing.parser 2025-01-21 17:57:35,132 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=188
+parsing.parser 2025-01-21 17:57:35,132 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=92
+parsing.parser 2025-01-21 17:57:35,133 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=226
+parsing.parser 2025-01-21 17:57:35,133 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=54
+parsing.parser 2025-01-21 17:57:35,133 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=111
+parsing.parser 2025-01-21 17:57:35,134 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=189
+parsing.parser 2025-01-21 17:57:35,134 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=93
+parsing.parser 2025-01-21 17:57:35,134 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=45
+parsing.parser 2025-01-21 17:57:35,134 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=9
+parsing.parser 2025-01-21 17:57:35,135 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=21
+parsing.parser 2025-01-21 17:57:35,135 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=26
+parsing.parser 2025-01-21 17:57:35,135 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=229
+parsing.parser 2025-01-21 17:57:35,136 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=112
+parsing.parser 2025-01-21 17:57:35,136 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=227
+parsing.parser 2025-01-21 17:57:35,136 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=3
+parsing.parser 2025-01-21 17:57:35,136 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=2
+parsing.parser 2025-01-21 17:57:35,137 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=228
+parsing.parser 2025-01-21 17:57:35,137 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=190
+parsing.parser 2025-01-21 17:57:35,137 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=191
+parsing.parser 2025-01-21 17:57:35,137 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=193
+parsing.parser 2025-01-21 17:57:35,138 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=192
+parsing.parser 2025-01-21 17:57:35,138 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=55
+parsing.parser 2025-01-21 17:57:35,138 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=113
+parsing.parser 2025-01-21 17:57:35,139 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=94
+parsing.parser 2025-01-21 17:57:35,139 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=95
+parsing.parser 2025-01-21 17:57:35,139 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=195
+parsing.parser 2025-01-21 17:57:35,139 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=194
+parsing.parser 2025-01-21 17:57:35,140 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=63
+parsing.parser 2025-01-21 17:57:35,140 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=97
+parsing.parser 2025-01-21 17:57:35,140 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=196
+parsing.parser 2025-01-21 17:57:35,140 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=96
+parsing.parser 2025-01-21 17:57:35,141 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=64
+parsing.parser 2025-01-21 17:57:35,141 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=197
+parsing.parser 2025-01-21 17:57:35,141 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=31
+parsing.parser 2025-01-21 17:57:35,142 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=30
+parsing.parser 2025-01-21 17:57:35,142 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=119
+parsing.parser 2025-01-21 17:57:35,142 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=117
+parsing.parser 2025-01-21 17:57:35,142 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=115
+parsing.parser 2025-01-21 17:57:35,143 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=230
+parsing.parser 2025-01-21 17:57:35,143 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=47
+parsing.parser 2025-01-21 17:57:35,143 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=66
+parsing.parser 2025-01-21 17:57:35,144 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=32
+parsing.parser 2025-01-21 17:57:35,144 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=46
+parsing.parser 2025-01-21 17:57:35,144 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=68
+parsing.parser 2025-01-21 17:57:35,144 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=33
+parsing.parser 2025-01-21 17:57:35,145 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=114
+parsing.parser 2025-01-21 17:57:35,145 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=199
+parsing.parser 2025-01-21 17:57:35,145 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=198
+parsing.parser 2025-01-21 17:57:35,146 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=14
+parsing.parser 2025-01-21 17:57:35,146 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=200
+parsing.parser 2025-01-21 17:57:35,146 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=98
+parsing.parser 2025-01-21 17:57:35,146 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=34
+parsing.parser 2025-01-21 17:57:35,147 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=201
+parsing.parser 2025-01-21 17:57:35,147 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=129
+parsing.parser 2025-01-21 17:57:35,147 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=131
+parsing.parser 2025-01-21 17:57:35,147 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=133
+parsing.parser 2025-01-21 17:57:35,148 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=202
+parsing.parser 2025-01-21 17:57:35,148 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=137
+parsing.parser 2025-01-21 17:57:35,148 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=139
+parsing.parser 2025-01-21 17:57:35,149 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=141
+parsing.parser 2025-01-21 17:57:35,149 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=205
+parsing.parser 2025-01-21 17:57:35,149 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=145
+parsing.parser 2025-01-21 17:57:35,149 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=146
+parsing.parser 2025-01-21 17:57:35,150 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=148
+parsing.parser 2025-01-21 17:57:35,150 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=73
+parsing.parser 2025-01-21 17:57:35,150 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=35
+parsing.parser 2025-01-21 17:57:35,150 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=16
+parsing.parser 2025-01-21 17:57:35,151 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=150
+parsing.parser 2025-01-21 17:57:35,151 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=207
+parsing.parser 2025-01-21 17:57:35,151 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=75
+parsing.parser 2025-01-21 17:57:35,152 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=36
+parsing.parser 2025-01-21 17:57:35,152 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=155
+parsing.parser 2025-01-21 17:57:35,152 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=103
+parsing.parser 2025-01-21 17:57:35,152 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=77
+parsing.parser 2025-01-21 17:57:35,153 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=37
+parsing.parser 2025-01-21 17:57:35,153 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=116
+parsing.parser 2025-01-21 17:57:35,153 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=56
+parsing.parser 2025-01-21 17:57:35,153 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=99
+parsing.parser 2025-01-21 17:57:35,154 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=48
+parsing.parser 2025-01-21 17:57:35,154 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=204
+parsing.parser 2025-01-21 17:57:35,154 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=203
+parsing.parser 2025-01-21 17:57:35,155 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=100
+parsing.parser 2025-01-21 17:57:35,155 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=118
+parsing.parser 2025-01-21 17:57:35,155 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=27
+parsing.parser 2025-01-21 17:57:35,155 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=57
+parsing.parser 2025-01-21 17:57:35,156 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=49
+parsing.parser 2025-01-21 17:57:35,156 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=23
+parsing.parser 2025-01-21 17:57:35,156 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=206
+parsing.parser 2025-01-21 17:57:35,157 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=22
+parsing.parser 2025-01-21 17:57:35,157 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=151
+parsing.parser 2025-01-21 17:57:35,157 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=12
+parsing.parser 2025-01-21 17:57:35,157 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=209
+parsing.parser 2025-01-21 17:57:35,158 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=102
+parsing.parser 2025-01-21 17:57:35,158 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=208
+parsing.parser 2025-01-21 17:57:35,158 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=210
+parsing.parser 2025-01-21 17:57:35,159 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=50
+parsing.parser 2025-01-21 17:57:35,159 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=17
+parsing.parser 2025-01-21 18:33:33,968 INFO Try to get active collection from db
+parsing.parser 2025-01-21 18:33:44,385 INFO Active collection is vacansy_two, close connection
+parsing.parser 2025-01-21 18:33:45,357 INFO Starting tasks 'page with vac'
+parsing.parser 2025-01-21 18:33:56,147 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=53
+parsing.parser 2025-01-21 18:33:56,148 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=98
+parsing.parser 2025-01-21 18:33:56,585 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=97
+parsing.parser 2025-01-21 18:33:56,585 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=101
+parsing.parser 2025-01-21 18:33:56,742 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=100
+parsing.parser 2025-01-21 18:33:56,742 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=103
+parsing.parser 2025-01-21 18:33:56,984 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=102
+parsing.parser 2025-01-21 18:33:56,984 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=105
+parsing.parser 2025-01-21 18:33:57,051 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=104
+parsing.parser 2025-01-21 18:33:57,051 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=107
+parsing.parser 2025-01-21 18:33:57,243 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=106
+parsing.parser 2025-01-21 18:33:57,243 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=110
+parsing.parser 2025-01-21 18:33:57,287 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=108
+parsing.parser 2025-01-21 18:33:57,287 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=112
+parsing.parser 2025-01-21 18:33:57,331 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=109
+parsing.parser 2025-01-21 18:33:57,332 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=114
+parsing.parser 2025-01-21 18:33:57,392 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=96
+parsing.parser 2025-01-21 18:33:57,392 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=116
+parsing.parser 2025-01-21 18:33:57,481 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=111
+parsing.parser 2025-01-21 18:33:57,481 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=118
+parsing.parser 2025-01-21 18:33:57,544 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=113
+parsing.parser 2025-01-21 18:33:57,544 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=120
+parsing.parser 2025-01-21 18:33:57,578 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=115
+parsing.parser 2025-01-21 18:33:57,578 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=122
+parsing.parser 2025-01-21 18:33:57,591 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=117
+parsing.parser 2025-01-21 18:33:57,591 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=124
+parsing.parser 2025-01-21 18:33:57,707 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=119
+parsing.parser 2025-01-21 18:33:57,707 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=126
+parsing.parser 2025-01-21 18:33:57,796 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=121
+parsing.parser 2025-01-21 18:33:57,796 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=128
+parsing.parser 2025-01-21 18:33:57,824 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=123
+parsing.parser 2025-01-21 18:33:57,824 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=130
+parsing.parser 2025-01-21 18:33:57,858 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=125
+parsing.parser 2025-01-21 18:33:57,858 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=132
+parsing.parser 2025-01-21 18:33:58,027 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=127
+parsing.parser 2025-01-21 18:33:58,027 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=134
+parsing.parser 2025-01-21 18:33:58,048 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=129
+parsing.parser 2025-01-21 18:33:58,049 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=136
+parsing.parser 2025-01-21 18:33:58,079 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=131
+parsing.parser 2025-01-21 18:33:58,079 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=138
+parsing.parser 2025-01-21 18:33:58,122 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=133
+parsing.parser 2025-01-21 18:33:58,123 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=140
+parsing.parser 2025-01-21 18:33:58,266 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=135
+parsing.parser 2025-01-21 18:33:58,267 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=142
+parsing.parser 2025-01-21 18:33:58,289 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=137
+parsing.parser 2025-01-21 18:33:58,290 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=144
+parsing.parser 2025-01-21 18:33:58,328 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=139
+parsing.parser 2025-01-21 18:33:58,329 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=146
+parsing.parser 2025-01-21 18:33:58,341 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=141
+parsing.parser 2025-01-21 18:33:58,341 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=148
+parsing.parser 2025-01-21 18:33:58,586 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=143
+parsing.parser 2025-01-21 18:33:58,586 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=150
+parsing.parser 2025-01-21 18:33:58,600 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=145
+parsing.parser 2025-01-21 18:33:58,600 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=152
+parsing.parser 2025-01-21 18:33:58,607 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=147
+parsing.parser 2025-01-21 18:33:58,608 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=154
+parsing.parser 2025-01-21 18:33:58,640 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=149
+parsing.parser 2025-01-21 18:33:58,640 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=156
+parsing.parser 2025-01-21 18:33:58,796 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=151
+parsing.parser 2025-01-21 18:33:58,796 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=158
+parsing.parser 2025-01-21 18:33:58,835 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=153
+parsing.parser 2025-01-21 18:33:58,835 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=160
+parsing.parser 2025-01-21 18:33:58,873 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=155
+parsing.parser 2025-01-21 18:33:58,873 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=162
+parsing.parser 2025-01-21 18:33:58,894 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=157
+parsing.parser 2025-01-21 18:33:58,894 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=164
+parsing.parser 2025-01-21 18:33:59,015 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=159
+parsing.parser 2025-01-21 18:33:59,016 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=166
+parsing.parser 2025-01-21 18:33:59,063 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=161
+parsing.parser 2025-01-21 18:33:59,063 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=168
+parsing.parser 2025-01-21 18:33:59,118 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=163
+parsing.parser 2025-01-21 18:33:59,118 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=170
+parsing.parser 2025-01-21 18:33:59,128 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=165
+parsing.parser 2025-01-21 18:33:59,128 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=172
+parsing.parser 2025-01-21 18:33:59,241 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=167
+parsing.parser 2025-01-21 18:33:59,241 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=174
+parsing.parser 2025-01-21 18:33:59,324 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=169
+parsing.parser 2025-01-21 18:33:59,324 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=176
+parsing.parser 2025-01-21 18:33:59,376 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=171
+parsing.parser 2025-01-21 18:33:59,376 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=178
+parsing.parser 2025-01-21 18:33:59,389 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=173
+parsing.parser 2025-01-21 18:33:59,390 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=180
+parsing.parser 2025-01-21 18:33:59,546 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=177
+parsing.parser 2025-01-21 18:33:59,546 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=182
+parsing.parser 2025-01-21 18:33:59,548 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=175
+parsing.parser 2025-01-21 18:33:59,549 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=184
+parsing.parser 2025-01-21 18:33:59,590 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=181
+parsing.parser 2025-01-21 18:33:59,590 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=186
+parsing.parser 2025-01-21 18:33:59,598 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=179
+parsing.parser 2025-01-21 18:33:59,598 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=188
+parsing.parser 2025-01-21 18:33:59,760 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=183
+parsing.parser 2025-01-21 18:33:59,760 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=190
+parsing.parser 2025-01-21 18:33:59,775 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=185
+parsing.parser 2025-01-21 18:33:59,776 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=192
+parsing.parser 2025-01-21 18:33:59,806 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=187
+parsing.parser 2025-01-21 18:33:59,806 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=194
+parsing.parser 2025-01-21 18:33:59,836 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=189
+parsing.parser 2025-01-21 18:33:59,836 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=196
+parsing.parser 2025-01-21 18:33:59,975 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=191
+parsing.parser 2025-01-21 18:33:59,975 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=198
+parsing.parser 2025-01-21 18:33:59,998 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=193
+parsing.parser 2025-01-21 18:34:00,000 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=200
+parsing.parser 2025-01-21 18:34:00,055 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=195
+parsing.parser 2025-01-21 18:34:00,055 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=202
+parsing.parser 2025-01-21 18:34:00,076 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=197
+parsing.parser 2025-01-21 18:34:00,076 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=204
+parsing.parser 2025-01-21 18:34:00,197 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=199
+parsing.parser 2025-01-21 18:34:00,197 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=206
+parsing.parser 2025-01-21 18:34:00,216 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=201
+parsing.parser 2025-01-21 18:34:00,216 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=208
+parsing.parser 2025-01-21 18:34:00,249 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=203
+parsing.parser 2025-01-21 18:34:00,249 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=210
+parsing.parser 2025-01-21 18:34:00,288 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=205
+parsing.parser 2025-01-21 18:34:00,288 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=212
+parsing.parser 2025-01-21 18:34:00,418 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=207
+parsing.parser 2025-01-21 18:34:00,418 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=214
+parsing.parser 2025-01-21 18:34:00,425 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=209
+parsing.parser 2025-01-21 18:34:00,426 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=216
+parsing.parser 2025-01-21 18:34:00,471 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=211
+parsing.parser 2025-01-21 18:34:00,471 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=218
+parsing.parser 2025-01-21 18:34:00,524 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=213
+parsing.parser 2025-01-21 18:34:00,524 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=220
+parsing.parser 2025-01-21 18:34:00,649 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=215
+parsing.parser 2025-01-21 18:34:00,650 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=222
+parsing.parser 2025-01-21 18:34:00,703 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=217
+parsing.parser 2025-01-21 18:34:00,703 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=224
+parsing.parser 2025-01-21 18:34:00,776 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=219
+parsing.parser 2025-01-21 18:34:00,776 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=226
+parsing.parser 2025-01-21 18:34:00,783 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=221
+parsing.parser 2025-01-21 18:34:00,783 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=228
+parsing.parser 2025-01-21 18:34:00,871 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=223
+parsing.parser 2025-01-21 18:34:00,871 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=230
+parsing.parser 2025-01-21 18:34:00,941 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=225
+parsing.parser 2025-01-21 18:34:00,942 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=53
+parsing.parser 2025-01-21 18:34:00,973 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=227
+parsing.parser 2025-01-21 18:34:00,973 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=97
+parsing.parser 2025-01-21 18:34:01,041 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=229
+parsing.parser 2025-01-21 18:34:01,041 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=100
+parsing.parser 2025-01-21 18:34:01,091 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=95
+parsing.parser 2025-01-21 18:34:01,092 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=102
+parsing.parser 2025-01-21 18:34:01,162 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=98
+parsing.parser 2025-01-21 18:34:01,162 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=104
+parsing.parser 2025-01-21 18:34:01,184 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=101
+parsing.parser 2025-01-21 18:34:01,184 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=106
+parsing.parser 2025-01-21 18:34:01,206 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=103
+parsing.parser 2025-01-21 18:34:01,206 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=108
+parsing.parser 2025-01-21 18:34:01,272 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=105
+parsing.parser 2025-01-21 18:34:01,272 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=109
+parsing.parser 2025-01-21 18:34:01,289 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=107
+parsing.parser 2025-01-21 18:34:01,290 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=96
+parsing.parser 2025-01-21 18:34:01,435 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=112
+parsing.parser 2025-01-21 18:34:01,435 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=111
+parsing.parser 2025-01-21 18:34:01,445 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=110
+parsing.parser 2025-01-21 18:34:01,445 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=113
+parsing.parser 2025-01-21 18:34:01,455 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=114
+parsing.parser 2025-01-21 18:34:01,456 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=115
+parsing.parser 2025-01-21 18:34:01,566 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=116
+parsing.parser 2025-01-21 18:34:01,566 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=117
+parsing.parser 2025-01-21 18:34:01,595 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=118
+parsing.parser 2025-01-21 18:34:01,595 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=119
+parsing.parser 2025-01-21 18:34:01,724 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=120
+parsing.parser 2025-01-21 18:34:01,725 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=121
+parsing.parser 2025-01-21 18:34:01,728 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=122
+parsing.parser 2025-01-21 18:34:01,729 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=123
+parsing.parser 2025-01-21 18:34:01,762 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=124
+parsing.parser 2025-01-21 18:34:01,762 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=125
+parsing.parser 2025-01-21 18:34:01,893 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=126
+parsing.parser 2025-01-21 18:34:01,894 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=127
+parsing.parser 2025-01-21 18:34:01,899 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=128
+parsing.parser 2025-01-21 18:34:01,899 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=129
+parsing.parser 2025-01-21 18:34:01,989 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=132
+parsing.parser 2025-01-21 18:34:01,989 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=131
+parsing.parser 2025-01-21 18:34:02,013 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=134
+parsing.parser 2025-01-21 18:34:02,013 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=133
+parsing.parser 2025-01-21 18:34:02,097 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=130
+parsing.parser 2025-01-21 18:34:02,097 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=135
+parsing.parser 2025-01-21 18:34:02,162 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=136
+parsing.parser 2025-01-21 18:34:02,162 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=137
+parsing.parser 2025-01-21 18:34:02,180 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=138
+parsing.parser 2025-01-21 18:34:02,180 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=139
+parsing.parser 2025-01-21 18:34:02,316 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=142
+parsing.parser 2025-01-21 18:34:02,316 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=141
+parsing.parser 2025-01-21 18:34:02,334 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=140
+parsing.parser 2025-01-21 18:34:02,334 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=143
+parsing.parser 2025-01-21 18:34:02,425 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=144
+parsing.parser 2025-01-21 18:34:02,425 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=145
+parsing.parser 2025-01-21 18:34:02,427 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=146
+parsing.parser 2025-01-21 18:34:02,427 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=147
+parsing.parser 2025-01-21 18:34:02,481 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=148
+parsing.parser 2025-01-21 18:34:02,482 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=149
+parsing.parser 2025-01-21 18:34:02,583 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=150
+parsing.parser 2025-01-21 18:34:02,583 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=151
+parsing.parser 2025-01-21 18:34:02,625 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=152
+parsing.parser 2025-01-21 18:34:02,625 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=153
+parsing.parser 2025-01-21 18:34:02,747 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=154
+parsing.parser 2025-01-21 18:34:02,747 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=155
+parsing.parser 2025-01-21 18:34:02,754 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=158
+parsing.parser 2025-01-21 18:34:02,754 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=157
+parsing.parser 2025-01-21 18:34:02,833 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=156
+parsing.parser 2025-01-21 18:34:02,833 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=159
+parsing.parser 2025-01-21 18:34:02,883 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=160
+parsing.parser 2025-01-21 18:34:02,883 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=161
+parsing.parser 2025-01-21 18:34:02,923 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=162
+parsing.parser 2025-01-21 18:34:02,923 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=163
+parsing.parser 2025-01-21 18:34:03,163 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=164
+parsing.parser 2025-01-21 18:34:03,163 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=166
+parsing.parser 2025-01-21 18:34:03,178 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=168
+parsing.parser 2025-01-21 18:34:03,178 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=167
+parsing.parser 2025-01-21 18:34:03,334 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=170
+parsing.parser 2025-01-21 18:34:03,334 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=169
+parsing.parser 2025-01-21 18:34:03,357 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=172
+parsing.parser 2025-01-21 18:34:03,358 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=171
+parsing.parser 2025-01-21 18:34:03,463 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=174
+parsing.parser 2025-01-21 18:34:03,463 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=173
+parsing.parser 2025-01-21 18:34:03,513 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=176
+parsing.parser 2025-01-21 18:34:03,513 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=177
+parsing.parser 2025-01-21 18:34:03,579 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=178
+parsing.parser 2025-01-21 18:34:03,580 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=175
+parsing.parser 2025-01-21 18:34:03,608 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=180
+parsing.parser 2025-01-21 18:34:03,608 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=181
+parsing.parser 2025-01-21 18:34:03,794 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=182
+parsing.parser 2025-01-21 18:34:03,796 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=190
+parsing.parser 2025-01-21 18:34:03,869 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=184
+parsing.parser 2025-01-21 18:34:03,869 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=192
+parsing.parser 2025-01-21 18:34:03,883 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=186
+parsing.parser 2025-01-21 18:34:03,884 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=194
+parsing.parser 2025-01-21 18:34:03,908 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=188
+parsing.parser 2025-01-21 18:34:03,909 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=196
+parsing.parser 2025-01-21 18:34:04,079 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=179
+parsing.parser 2025-01-21 18:34:04,079 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=198
+parsing.parser 2025-01-21 18:34:04,129 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=183
+parsing.parser 2025-01-21 18:34:04,130 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=200
+parsing.parser 2025-01-21 18:34:04,175 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=187
+parsing.parser 2025-01-21 18:34:04,175 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=185
+parsing.parser 2025-01-21 18:34:04,302 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=189
+parsing.parser 2025-01-21 18:34:04,303 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=204
+parsing.parser 2025-01-21 18:34:04,554 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=191
+parsing.parser 2025-01-21 18:34:04,554 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=206
+parsing.parser 2025-01-21 18:34:04,575 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=193
+parsing.parser 2025-01-21 18:34:04,575 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=208
+parsing.parser 2025-01-21 18:34:04,634 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=195
+parsing.parser 2025-01-21 18:34:04,634 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=210
+parsing.parser 2025-01-21 18:34:04,662 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=197
+parsing.parser 2025-01-21 18:34:04,662 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=212
+parsing.parser 2025-01-21 18:34:04,846 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=199
+parsing.parser 2025-01-21 18:34:04,846 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=214
+parsing.parser 2025-01-21 18:34:04,874 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=201
+parsing.parser 2025-01-21 18:34:04,875 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=216
+parsing.parser 2025-01-21 18:34:04,957 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=203
+parsing.parser 2025-01-21 18:34:04,958 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=211
+parsing.parser 2025-01-21 18:34:05,006 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=205
+parsing.parser 2025-01-21 18:34:05,006 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=213
+parsing.parser 2025-01-21 18:34:05,137 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=207
+parsing.parser 2025-01-21 18:34:05,137 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=215
+parsing.parser 2025-01-21 18:34:05,150 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=209
+parsing.parser 2025-01-21 18:34:05,150 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=217
+parsing.parser 2025-01-21 18:34:05,203 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=218
+parsing.parser 2025-01-21 18:34:05,204 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=219
+parsing.parser 2025-01-21 18:34:05,283 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=220
+parsing.parser 2025-01-21 18:34:05,283 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=221
+parsing.parser 2025-01-21 18:34:05,305 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=222
+parsing.parser 2025-01-21 18:34:05,305 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=223
+parsing.parser 2025-01-21 18:34:05,397 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=224
+parsing.parser 2025-01-21 18:34:05,397 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=225
+parsing.parser 2025-01-21 18:34:05,438 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=226
+parsing.parser 2025-01-21 18:34:05,438 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=227
+parsing.parser 2025-01-21 18:34:05,457 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=228
+parsing.parser 2025-01-21 18:34:05,457 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=229
+parsing.parser 2025-01-21 18:34:05,499 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=230
+parsing.parser 2025-01-21 18:34:05,499 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=95
+parsing.parser 2025-01-21 18:34:05,536 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=53
+parsing.parser 2025-01-21 18:34:05,536 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=98
+parsing.parser 2025-01-21 18:34:05,656 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=97
+parsing.parser 2025-01-21 18:34:05,656 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=101
+parsing.parser 2025-01-21 18:34:05,678 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=100
+parsing.parser 2025-01-21 18:34:05,678 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=103
+parsing.parser 2025-01-21 18:34:05,702 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=102
+parsing.parser 2025-01-21 18:34:05,703 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=105
+parsing.parser 2025-01-21 18:34:05,768 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=104
+parsing.parser 2025-01-21 18:34:05,769 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=107
+parsing.parser 2025-01-21 18:34:05,773 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=106
+parsing.parser 2025-01-21 18:34:05,774 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=112
+parsing.parser 2025-01-21 18:34:05,884 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=108
+parsing.parser 2025-01-21 18:34:05,884 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=110
+parsing.parser 2025-01-21 18:34:05,922 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=109
+parsing.parser 2025-01-21 18:34:05,924 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=114
+parsing.parser 2025-01-21 18:34:05,949 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=96
+parsing.parser 2025-01-21 18:34:05,950 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=116
+parsing.parser 2025-01-21 18:34:05,999 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=111
+parsing.parser 2025-01-21 18:34:05,999 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=118
+parsing.parser 2025-01-21 18:34:06,018 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=113
+parsing.parser 2025-01-21 18:34:06,019 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=120
+parsing.parser 2025-01-21 18:34:06,127 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=115
+parsing.parser 2025-01-21 18:34:06,127 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=122
+parsing.parser 2025-01-21 18:34:06,185 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=117
+parsing.parser 2025-01-21 18:34:06,185 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=124
+parsing.parser 2025-01-21 18:34:06,232 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=119
+parsing.parser 2025-01-21 18:34:06,233 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=126
+parsing.parser 2025-01-21 18:34:06,311 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=121
+parsing.parser 2025-01-21 18:34:06,311 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=128
+parsing.parser 2025-01-21 18:34:06,340 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=123
+parsing.parser 2025-01-21 18:34:06,340 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=132
+parsing.parser 2025-01-21 18:34:06,462 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=125
+parsing.parser 2025-01-21 18:34:06,462 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=134
+parsing.parser 2025-01-21 18:34:06,513 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=127
+parsing.parser 2025-01-21 18:34:06,514 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=130
+parsing.parser 2025-01-21 18:34:06,608 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=129
+parsing.parser 2025-01-21 18:34:06,608 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=136
+parsing.parser 2025-01-21 18:34:06,618 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=131
+parsing.parser 2025-01-21 18:34:06,618 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=138
+parsing.parser 2025-01-21 18:34:06,625 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=133
+parsing.parser 2025-01-21 18:34:06,626 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=142
+parsing.parser 2025-01-21 18:34:06,727 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=135
+parsing.parser 2025-01-21 18:34:06,727 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=140
+parsing.parser 2025-01-21 18:34:06,764 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=137
+parsing.parser 2025-01-21 18:34:06,764 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=144
+parsing.parser 2025-01-21 18:34:06,829 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=141
+parsing.parser 2025-01-21 18:34:06,829 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=146
+parsing.parser 2025-01-21 18:34:06,875 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=139
+parsing.parser 2025-01-21 18:34:06,875 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=148
+parsing.parser 2025-01-21 18:34:06,916 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=143
+parsing.parser 2025-01-21 18:34:06,917 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=150
+parsing.parser 2025-01-21 18:34:07,066 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=145
+parsing.parser 2025-01-21 18:34:07,066 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=152
+parsing.parser 2025-01-21 18:34:07,119 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=147
+parsing.parser 2025-01-21 18:34:07,119 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=154
+parsing.parser 2025-01-21 18:34:07,175 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=149
+parsing.parser 2025-01-21 18:34:07,175 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=158
+parsing.parser 2025-01-21 18:34:07,178 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=151
+parsing.parser 2025-01-21 18:34:07,178 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=156
+parsing.parser 2025-01-21 18:34:07,218 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=153
+parsing.parser 2025-01-21 18:34:07,218 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=160
+parsing.parser 2025-01-21 18:34:07,302 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=155
+parsing.parser 2025-01-21 18:34:07,302 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=162
+parsing.parser 2025-01-21 18:34:07,368 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=157
+parsing.parser 2025-01-21 18:34:07,368 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=164
+parsing.parser 2025-01-21 18:34:07,394 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=159
+parsing.parser 2025-01-21 18:34:07,394 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=168
+parsing.parser 2025-01-21 18:34:07,428 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=161
+parsing.parser 2025-01-21 18:34:07,428 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=170
+parsing.parser 2025-01-21 18:34:07,474 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=163
+parsing.parser 2025-01-21 18:34:07,474 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=172
+parsing.parser 2025-01-21 18:34:07,532 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=166
+parsing.parser 2025-01-21 18:34:07,532 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=174
+parsing.parser 2025-01-21 18:34:07,619 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=167
+parsing.parser 2025-01-21 18:34:07,619 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=176
+parsing.parser 2025-01-21 18:34:07,629 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=169
+parsing.parser 2025-01-21 18:34:07,630 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=178
+parsing.parser 2025-01-21 18:34:07,665 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=171
+parsing.parser 2025-01-21 18:34:07,665 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=180
+parsing.parser 2025-01-21 18:34:07,723 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=177
+parsing.parser 2025-01-21 18:34:07,723 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=182
+parsing.parser 2025-01-21 18:34:07,725 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=173
+parsing.parser 2025-01-21 18:34:07,726 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=184
+parsing.parser 2025-01-21 18:34:07,826 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=175
+parsing.parser 2025-01-21 18:34:07,826 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=186
+parsing.parser 2025-01-21 18:34:07,847 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=181
+parsing.parser 2025-01-21 18:34:07,847 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=188
+parsing.parser 2025-01-21 18:34:07,866 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=190
+parsing.parser 2025-01-21 18:34:07,866 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=179
+parsing.parser 2025-01-21 18:34:07,902 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=192
+parsing.parser 2025-01-21 18:34:07,902 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=183
+parsing.parser 2025-01-21 18:34:07,969 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=194
+parsing.parser 2025-01-21 18:34:07,969 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=187
+parsing.parser 2025-01-21 18:34:08,030 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=196
+parsing.parser 2025-01-21 18:34:08,030 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=189
+parsing.parser 2025-01-21 18:34:08,057 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=198
+parsing.parser 2025-01-21 18:34:08,058 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=191
+parsing.parser 2025-01-21 18:34:08,093 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=200
+parsing.parser 2025-01-21 18:34:08,093 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=193
+parsing.parser 2025-01-21 18:34:08,176 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=185
+parsing.parser 2025-01-21 18:34:08,177 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=195
+parsing.parser 2025-01-21 18:34:08,199 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=204
+parsing.parser 2025-01-21 18:34:08,200 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=197
+parsing.parser 2025-01-21 18:34:08,240 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=206
+parsing.parser 2025-01-21 18:34:08,240 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=199
+parsing.parser 2025-01-21 18:34:08,293 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=208
+parsing.parser 2025-01-21 18:34:08,294 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=201
+parsing.parser 2025-01-21 18:34:08,348 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=210
+parsing.parser 2025-01-21 18:34:08,348 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=203
+parsing.parser 2025-01-21 18:34:08,416 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=212
+parsing.parser 2025-01-21 18:34:08,416 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=205
+parsing.parser 2025-01-21 18:34:08,447 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=216
+parsing.parser 2025-01-21 18:34:08,447 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=207
+parsing.parser 2025-01-21 18:34:08,456 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=214
+parsing.parser 2025-01-21 18:34:08,456 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=209
+parsing.parser 2025-01-21 18:34:08,526 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=211
+parsing.parser 2025-01-21 18:34:08,526 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=218
+parsing.parser 2025-01-21 18:34:08,546 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=213
+parsing.parser 2025-01-21 18:34:08,546 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=220
+parsing.parser 2025-01-21 18:34:08,645 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=215
+parsing.parser 2025-01-21 18:34:08,645 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=222
+parsing.parser 2025-01-21 18:34:08,676 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=217
+parsing.parser 2025-01-21 18:34:08,676 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=224
+parsing.parser 2025-01-21 18:34:08,683 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=219
+parsing.parser 2025-01-21 18:34:08,683 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=226
+parsing.parser 2025-01-21 18:34:08,746 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=221
+parsing.parser 2025-01-21 18:34:08,746 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=228
+parsing.parser 2025-01-21 18:34:08,784 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=223
+parsing.parser 2025-01-21 18:34:08,785 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=230
+parsing.parser 2025-01-21 18:34:08,885 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=225
+parsing.parser 2025-01-21 18:34:08,885 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=53
+parsing.parser 2025-01-21 18:34:08,886 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=227
+parsing.parser 2025-01-21 18:34:08,887 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=97
+parsing.parser 2025-01-21 18:34:08,920 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=229
+parsing.parser 2025-01-21 18:34:08,920 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=100
+parsing.parser 2025-01-21 18:34:08,940 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=95
+parsing.parser 2025-01-21 18:34:08,940 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=102
+parsing.parser 2025-01-21 18:34:09,013 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=98
+parsing.parser 2025-01-21 18:34:09,014 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=104
+parsing.parser 2025-01-21 18:34:09,084 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=103
+parsing.parser 2025-01-21 18:34:09,085 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=106
+parsing.parser 2025-01-21 18:34:09,133 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=101
+parsing.parser 2025-01-21 18:34:09,133 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=108
+parsing.parser 2025-01-21 18:34:09,149 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=105
+parsing.parser 2025-01-21 18:34:09,149 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=109
+parsing.parser 2025-01-21 18:34:09,181 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=107
+parsing.parser 2025-01-21 18:34:09,181 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=96
+parsing.parser 2025-01-21 18:34:09,224 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=112
+parsing.parser 2025-01-21 18:34:09,224 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=111
+parsing.parser 2025-01-21 18:34:09,330 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=110
+parsing.parser 2025-01-21 18:34:09,330 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=113
+parsing.parser 2025-01-21 18:34:09,352 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=114
+parsing.parser 2025-01-21 18:34:09,352 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=115
+parsing.parser 2025-01-21 18:34:09,404 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=116
+parsing.parser 2025-01-21 18:34:09,404 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=117
+parsing.parser 2025-01-21 18:34:09,430 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=118
+parsing.parser 2025-01-21 18:34:09,430 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=119
+parsing.parser 2025-01-21 18:34:09,498 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=120
+parsing.parser 2025-01-21 18:34:09,498 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=121
+parsing.parser 2025-01-21 18:34:09,602 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=122
+parsing.parser 2025-01-21 18:34:09,602 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=123
+parsing.parser 2025-01-21 18:34:09,606 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=124
+parsing.parser 2025-01-21 18:34:09,606 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=125
+parsing.parser 2025-01-21 18:34:09,619 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=126
+parsing.parser 2025-01-21 18:34:09,619 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=127
+parsing.parser 2025-01-21 18:34:09,713 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=128
+parsing.parser 2025-01-21 18:34:09,713 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=129
+parsing.parser 2025-01-21 18:34:09,745 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=132
+parsing.parser 2025-01-21 18:34:09,746 ERROR Can not get urls to vacansy on page https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id=71&page=131
