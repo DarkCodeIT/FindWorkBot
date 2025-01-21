@@ -10,7 +10,7 @@ async def main():
     try:
         logger.info("Running bot")
         # Запускаем задачу бота асинхронно
-        bot_task = asyncio.create_task(bot_app.start_bot())
+        # bot_task = asyncio.create_task(bot_app.start_bot())
 
         logger.info("Running parsing")
         # Создаем задачу для парсера
@@ -18,7 +18,7 @@ async def main():
         parser_task = asyncio.create_task(mytimer.timer())
 
         # Ждем завершения всех задач
-        await bot_task
+        # await bot_task
         await parser_task
 
         logger.info("Bot and Parser are done")

@@ -55,3 +55,5 @@ name_city_for_statistic_rev = {
     'count_west': 'Западный регион',
     'count_ylutau': 'Улытау'
 }
+
+data_parsing = []
