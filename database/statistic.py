@@ -27,17 +27,23 @@ async def update_clicks_to_link_vac():
 
 async def update_peak_city(new_city: str, user_id: int):
     user = await db_service.get_user(user_id)
-    old_city = user["city"]
+    if "city" in user:
+        old_city = user['city']
+        if old_city == new_city:
+            return
 
-    if old_city == new_city:
-        return
+        collection, connection = await db_service.loading_collection("statistic")
+        collection.update_one({}, {"$inc": {name_city_for_statistic[old_city]: -1}})
 
-    collection, connection = await db_service.loading_collection("statistic")
-    collection.update_one({}, {"$inc" : {name_city_for_statistic[old_city] : -1}})
+        # Если число отрицательное
+        if int(collection.find_one({})[name_city_for_statistic[old_city]]) < 0:
+            collection.update_one({}, {"$set": {name_city_for_statistic[old_city]: 0}})
 
-    #Если число отрицательное
-    if int(collection.find_one({})[name_city_for_statistic[old_city]]) < 0:
-        collection.update_one({}, {"$set" : {name_city_for_statistic[old_city] : 0}})
+        collection.update_one({}, {"$inc": {name_city_for_statistic[new_city]: 1}})
+        connection.close()
 
-    collection.update_one({}, {"$inc" : {name_city_for_statistic[new_city] : 1}})
-    connection.close()
+    else:
+        #Если у пользователя в бд не было города
+        collection, connection = await db_service.loading_collection("statistic")
+        collection.update_one({}, {"$inc": {name_city_for_statistic[new_city]: 1}})
+        connection.close()
