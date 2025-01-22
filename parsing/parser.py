@@ -1,5 +1,3 @@
-from multiprocessing.forkserver import connect_to_new_process
-
 import aiohttp
 import asyncio
 import time
@@ -31,12 +29,10 @@ class DynamicCollection:
         if data == "vacansy":
             self.active_collection = "vacansy_two"
             self.old_collection = "vacansy"
-            collection.update_one({}, {"$set" : {"active_collection" : "vacansy_two"}})
 
         else:
             self.old_collection = "vacansy_two"
             self.active_collection = "vacansy"
-            collection.update_one({}, {"$set" : {"active_collection" : "vacansy"}})
 
         logger.info(f"Active collection is {self.active_collection}, close connection")
         connection.close()
@@ -233,7 +229,7 @@ async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, re
 
     try:
         async with semaphore:
-            async with session.get(url=url, headers=Headers(headers=True).generate()) as response:
+            async with session.get(url=url, headers=Headers(headers=True).generate(), timeout=aiohttp.ClientTimeout(5)) as response:
                 data = await BS4Tools.get_vacansy_details(html_page=await response.text(), id_city=id_city, url=url)
     except Exception as ex:
         logger.error(f"Can not get details abount vacansy url is {url}")
@@ -241,8 +237,11 @@ async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, re
 
     try:
         # await db_service.insert(data=data, coll=dynamic_collection.active_collection)
-        data_parsing.append(data)
-        logger.info("DATA SAVED")
+        try:
+            data_parsing.append(data)
+            logger.info("DATA SAVED")
+        except Exception as ex:
+            logger.info(f"{ex}")
     except Exception as ex:
         logger.error(f"Can not upload data to db: data is {data}\nActive collection is {dynamic_collection.active_collection}")
         logger.error(f"{ex}")
@@ -299,6 +298,11 @@ async def point_run():
         logger.info(f"Freezing the code on time{time_sleep}\n")
         await asyncio.sleep(time_sleep)
 
+    #Загружаем собранные данные в бд
+    collection, connection = await db_service.loading_collection(dynamic_collection.active_collection)
+    collection.update_many(data_parsing)
+    connection.close()
+    
     #Обновляем активную коллекцию
     collection, connection = await db_service.loading_collection("setting")
     collection.update_one({}, {"$set" : {"active_collection" : dynamic_collection.active_collection}})
