@@ -1,5 +1,6 @@
 import aiohttp
 import asyncio
+import time
 
 from random import randint
 from typing import AnyStr
@@ -221,8 +222,8 @@ async def create_tasks_to_vacansy(id_city: int, url: str, session: aiohttp.Clien
         logger.error(f"{ex}")
         if repeat > 0:
             logger.info("TRY AGAIN GO SLEEP\n\n")
-            time.sleep(randint(5, 10))
-            await create_tasks_to_vacansy(id_city, url, session, repeat-1)
+            await asyncio.sleep(randint(2, 5))
+            await create_tasks_to_vacansy(id_city, url, session, repeat-1, coll=coll)
 
 
 async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, repeat: int=3, coll=None):
@@ -230,22 +231,23 @@ async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, re
     try:
         async with semaphore:
             async with session.get(url=url, headers=Headers(headers=True).generate(), timeout=aiohttp.ClientTimeout(5)) as response:
-                data = await BS4Tools.get_vacansy_details(html_page=await response.text(), id_city=id_city, url=url)
+                vac = await BS4Tools.get_vacansy_details(html_page=await response.text(), id_city=id_city, url=url)
     except Exception as ex:
         logger.error(f"Can not get details abount vacansy url is {url}")
         logger.error(f"{ex}")
 
     try:
-        coll.insert_one(data)
+        if vac is not None:
+            coll.insert_one(vac)
         # data_parsing.append(data)
-        logger.info("DATA SAVED")
+            logger.info("DATA SAVED")
     except Exception as ex:
-        logger.error(f"Can not upload data to db: data is {data}\nActive collection is {dynamic_collection.active_collection}")
+        logger.error(f"Can not upload data to db: data is NONE\nActive collection is {dynamic_collection.active_collection}")
         logger.error(f"{ex}")
         if repeat > 0:
             logger.info("TRY AGAIN GO SLEEP\n\n")
-            time.sleep(randint(5, 10))
-            await get_vacansy(id_city, url, session, repeat-1)
+            await asyncio.sleep(2, 5)
+            await get_vacansy(id_city, url, session, repeat-1, coll=coll)
 
 
 async def point_run():
