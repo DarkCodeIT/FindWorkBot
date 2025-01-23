@@ -1,6 +1,5 @@
 import aiohttp
 import asyncio
-import time
 
 from random import randint
 from typing import AnyStr
@@ -262,7 +261,6 @@ async def point_run():
     logger.info("TASK BY CITY IS HAVE RUN TASKS WITH 10 URLS\n")
 
     for task_c in tasks_by_city:
-        start_time = time.time()
         #Запуск поиска количества страниц по данному городу(task_c) и получение корутин(create_tasks_to_vacansy)
         tasks_with_pages_with_ten = await task_c
         logger.info("Task to page with vac is recived\n")
@@ -289,21 +287,13 @@ async def point_run():
 
         logger.info("Starting Last tasks\n")
         await asyncio.gather(*last)
-        end_time = time.time()
-        logger.info(f"Speed work is {end_time-start_time}\n")
 
         # Делаем паузы, чтобы уменьшить риск блокировки IP
-        # time_sleep = randint(120, 200)
-        # logger.info(f"Freezing the code on time{time_sleep}\n")
-        # await asyncio.sleep(time_sleep)
+        time_sleep = randint(120, 200)
+        logger.info(f"Freezing the code on time{time_sleep}\n")
+        await asyncio.sleep(time_sleep)
 
-    #Загружаем собранные данные в бд
-    # logger.info("Try load to db")
-    # collection, connection = await db_service.loading_collection(dynamic_collection.active_collection)
-    # for index in range(50, len(data_parsing) - 1, 50):
-    #     await collection.update_many(filter={}, update=data_parsing[index-50 : index])
-    #     logger.info("Loaded")
-    # connection.close()
+
     connection_.close()
     #Обновляем активную коллекцию
     collection, connection = await db_service.loading_collection("setting")
