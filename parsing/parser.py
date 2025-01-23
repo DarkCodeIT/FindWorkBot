@@ -171,18 +171,19 @@ class BS4Tools:
 dynamic_collection = DynamicCollection()
 semaphore = asyncio.Semaphore(5)
 
-async def create_tasks_by_filter_city(session: aiohttp.ClientSession) -> list:
+
+async def create_tasks_by_filter_city(session: aiohttp.ClientSession, coll) -> list:
     tasks_city = []
 
     for city in eng_city_id.keys():
         id_city = eng_city_id[city]
         link = f"https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id={id_city}"
-        tasks_city.append(create_tasks_to_page(id_city=id_city, url=link, session=session))
+        tasks_city.append(create_tasks_to_page(id_city=id_city, url=link, session=session, coll=coll))
 
     return tasks_city
 
 
-async def create_tasks_to_page(id_city: int, url: str, session: aiohttp.ClientSession) -> list:
+async def create_tasks_to_page(id_city: int, url: str, session: aiohttp.ClientSession, coll) -> list:
     tasks_with_pages = []
 
     try:
@@ -192,7 +193,7 @@ async def create_tasks_to_page(id_city: int, url: str, session: aiohttp.ClientSe
 
                 for page in range(1, count):
                     link = f"https://www.enbek.kz/ru/search/vacancy?except[subsidized]=subsidized&region_id={id_city}&page={page}"
-                    tasks_with_pages.append(create_tasks_to_vacansy(id_city=id_city, url=link, session=session))
+                    tasks_with_pages.append(create_tasks_to_vacansy(id_city=id_city, url=link, session=session, coll=coll))
 
                 return tasks_with_pages
     except Exception as ex:
@@ -200,7 +201,7 @@ async def create_tasks_to_page(id_city: int, url: str, session: aiohttp.ClientSe
         logger.error(f"{ex}")
 
 
-async def create_tasks_to_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, repeat: int=3) -> list:
+async def create_tasks_to_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, repeat: int=3, coll=None) -> list:
     tasks_to_vac = []
 
     try:
@@ -212,7 +213,7 @@ async def create_tasks_to_vacansy(id_city: int, url: str, session: aiohttp.Clien
                 #Вытаскиваем ссылку на вакансию и создаем таски
                 for item in vac:
                     link = f"https://www.enbek.kz{await BS4Tools.get_href(item)}"
-                    tasks_to_vac.append(get_vacansy(id_city=id_city, url=link, session=session))
+                    tasks_to_vac.append(get_vacansy(id_city=id_city, url=link, session=session, coll=coll))
 
                 return tasks_to_vac
 
@@ -225,7 +226,7 @@ async def create_tasks_to_vacansy(id_city: int, url: str, session: aiohttp.Clien
             await create_tasks_to_vacansy(id_city, url, session, repeat-1)
 
 
-async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, repeat: int=3):
+async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, repeat: int=3, coll=None):
 
     try:
         async with semaphore:
@@ -236,7 +237,8 @@ async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, re
         logger.error(f"{ex}")
 
     try:
-        data_parsing.append(data)
+        coll.insert_one(data)
+        # data_parsing.append(data)
         logger.info("DATA SAVED")
     except Exception as ex:
         logger.error(f"Can not upload data to db: data is {data}\nActive collection is {dynamic_collection.active_collection}")
@@ -253,9 +255,10 @@ async def point_run():
 
     #Создание сессии для всех запросов на сервер
     session = aiohttp.ClientSession()
+    collection_, connection_ = await db_service.loading_collection(dynamic_collection.active_collection)
 
     #Получение тасков на нахождения вакансий в городах
-    tasks_by_city = await create_tasks_by_filter_city(session)
+    tasks_by_city = await create_tasks_by_filter_city(session, collection_)
     logger.info("TASK BY CITY IS HAVE RUN TASKS WITH 10 URLS\n")
 
     for task_c in tasks_by_city:
@@ -288,8 +291,6 @@ async def point_run():
         await asyncio.gather(*last)
         end_time = time.time()
         logger.info(f"Speed work is {end_time-start_time}\n")
-        if True:
-            break
 
         # Делаем паузы, чтобы уменьшить риск блокировки IP
         # time_sleep = randint(120, 200)
@@ -297,11 +298,13 @@ async def point_run():
         # await asyncio.sleep(time_sleep)
 
     #Загружаем собранные данные в бд
-    collection, connection = await db_service.loading_collection(dynamic_collection.active_collection)
-    for index in range(50, len(data_parsing) - 1, 50):
-        collection.update_many(filter={}, update=data_parsing[index-50 : index])
-    connection.close()
-    
+    # logger.info("Try load to db")
+    # collection, connection = await db_service.loading_collection(dynamic_collection.active_collection)
+    # for index in range(50, len(data_parsing) - 1, 50):
+    #     await collection.update_many(filter={}, update=data_parsing[index-50 : index])
+    #     logger.info("Loaded")
+    # connection.close()
+    connection_.close()
     #Обновляем активную коллекцию
     collection, connection = await db_service.loading_collection("setting")
     collection.update_one({}, {"$set" : {"active_collection" : dynamic_collection.active_collection}})
