@@ -205,7 +205,7 @@ async def create_tasks_to_vacansy(id_city: int, url: str, session: aiohttp.Clien
 
     try:
         async with semaphore:
-            async with session.get(url=url, headers=Headers(headers=True).generate()) as response:
+            async with session.get(url=url, headers=Headers(headers=True).generate(), timeout=aiohttp.ClientTimeout(5)) as response:
                 #Получаем список блоков в которых есть ссылки на страницу вакансии
                 vac = await BS4Tools.get_links_to_vac(await response.text())
 
@@ -236,12 +236,8 @@ async def get_vacansy(id_city: int, url: str, session: aiohttp.ClientSession, re
         logger.error(f"{ex}")
 
     try:
-        # await db_service.insert(data=data, coll=dynamic_collection.active_collection)
-        try:
-            data_parsing.append(data)
-            logger.info("DATA SAVED")
-        except Exception as ex:
-            logger.info(f"{ex}")
+        data_parsing.append(data)
+        logger.info("DATA SAVED")
     except Exception as ex:
         logger.error(f"Can not upload data to db: data is {data}\nActive collection is {dynamic_collection.active_collection}")
         logger.error(f"{ex}")
@@ -292,15 +288,18 @@ async def point_run():
         await asyncio.gather(*last)
         end_time = time.time()
         logger.info(f"Speed work is {end_time-start_time}\n")
+        if True:
+            break
 
         # Делаем паузы, чтобы уменьшить риск блокировки IP
-        time_sleep = randint(120, 200)
-        logger.info(f"Freezing the code on time{time_sleep}\n")
-        await asyncio.sleep(time_sleep)
+        # time_sleep = randint(120, 200)
+        # logger.info(f"Freezing the code on time{time_sleep}\n")
+        # await asyncio.sleep(time_sleep)
 
     #Загружаем собранные данные в бд
     collection, connection = await db_service.loading_collection(dynamic_collection.active_collection)
-    collection.update_many(data_parsing)
+    for index in range(50, len(data_parsing) - 1, 50):
+        collection.update_many(filter={}, update=data_parsing[index-50 : index])
     connection.close()
     
     #Обновляем активную коллекцию
